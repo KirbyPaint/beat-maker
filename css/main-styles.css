@@ -1,0 +1,41 @@
+.site-grid-container {
+  display: grid;
+  grid-template-rows: 1;
+  grid-template-columns: 50% 25% auto;
+}
+
+.note-grid-container {
+  display: grid;
+  grid-template-rows: 140px 140px 140px;
+  grid-template-columns: 140px 140px 140px 140px;
+}
+
+.tools-grid-container {
+  display: grid;
+  grid-template-rows: 140px 140px 140px 140px;
+  grid-template-columns: auto;
+}
+
+.directional-grid-container {
+  display: grid;
+  grid-template-rows: 40px 40px 40px;
+  grid-template-columns: 40px 40px 40px;
+}
+
+.attributes-box-container {
+  background-color: black;
+}
+
+/* Default example note block */
+.note-block {
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+/* Add easy black outline to any component */
+.component {
+  border: 2px solid black;
+  margin: 10px;
+  padding: 10px;
+}

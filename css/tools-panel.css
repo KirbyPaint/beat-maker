@@ -1,0 +1,35 @@
+/* Tool select panel */
+#directional-block {
+  width: 120px;
+  height: 120px;
+  background: lightgoldenrodyellow;
+  border-radius: 10px;
+}
+
+#red-block {
+  width: 120px;
+  height: 120px;
+  background: red;
+  border-radius: 10px;
+}
+
+#blue-block {
+  width: 120px;
+  height: 120px;
+  background: blue;
+  border-radius: 10px;
+}
+
+#bomb-block {
+  width: 120px;
+  height: 120px;
+  background: gray;
+  border-radius: 10px;
+}
+
+#wall-block {
+  width: 120px;
+  height: 120px;
+  background: pink;
+  border-radius: 10px;
+}
