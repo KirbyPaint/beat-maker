@@ -47,3 +47,12 @@
     }
   ]
 }
+
+_difficulty can be one of 5 Enum values with corresponding _difficultyRank numerical value (also Enum)
+Easy        1
+Normal      3
+Hard        5
+Expert      7
+ExpertPlus  9
+
+_customData is a VERY specific field and if none exists, it MUST be removed
