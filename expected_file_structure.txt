@@ -1,0 +1,19 @@
+This will all be contained in a zip folder
+
+cover.jpeg
+  File containing the cover art that will be displayed on BeatSaver.com and in the Beat Saber game itself
+
+Info.dat
+  See example_info_dat.txt for full details
+
+song.egg
+  Audio file of the track, converted to a .egg format
+  This will almost certainly require outside formatter tool, probably use FormatFactory like in the past
+
+.dat files for each difficulty
+  Standard naming convention appears to be <Difficulty>Standard.dat so 
+  EasyStandard.dat 
+  NormalStandard.dat
+  HardStandard.dat
+  ExpertStandard.dat
+  ExpertPlusStandard.dat
