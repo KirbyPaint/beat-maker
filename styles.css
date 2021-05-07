@@ -16,22 +16,67 @@
   grid-template-columns: auto;
 }
 
+.directional-grid-container {
+  display: grid;
+  grid-template-rows: 40px 40px 40px;
+  grid-template-columns: 40px 40px 40px;
+}
+
+#dir-0 {
+  border: 1px solid black;
+}
+
+#dir-1 {
+  border: 1px solid black;
+}
+
+#dir-2 {
+  border: 1px solid black;
+}
+
+#dir-3 {
+  border: 1px solid black;
+}
+
+#dir-4 {
+  border: 1px solid black;
+}
+
+#dir-5 {
+  border: 1px solid black;
+}
+
+#dir-6 {
+  border: 1px solid black;
+}
+
+#dir-7 {
+  border: 1px solid black;
+}
+
+#dir-8 {
+  border: 1px solid black;
+}
+
 .attributes-box-container {
   background-color: black;
 }
 
+/* Default example note block */
 .note-block {
   width: 100px;
   height: 100px;
   background: red;
 }
 
+/* Add easy black outline to any component */
 .component {
   border: 2px solid black;
   margin: 10px;
   padding: 10px;
 }
 
+/* Note grid */
 #zero-zero {
   width: 120px;
   height: 120px;
@@ -116,3 +161,38 @@
   border-radius: 10px;
 }
 
+/* Tool select panel */
+#directional-block {
+  width: 120px;
+  height: 120px;
+  background: lightgoldenrodyellow;
+  border-radius: 10px;
+}
+
+#red-block {
+  width: 120px;
+  height: 120px;
+  background: red;
+  border-radius: 10px;
+}
+
+#blue-block {
+  width: 120px;
+  height: 120px;
+  background: blue;
+  border-radius: 10px;
+}
+
+#bomb-block {
+  width: 120px;
+  height: 120px;
+  background: gray;
+  border-radius: 10px;
+}
+
+#wall-block {
+  width: 120px;
+  height: 120px;
+  background: pink;
+  border-radius: 10px;
+}
