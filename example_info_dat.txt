@@ -23,3 +23,27 @@
     // Check the sidebar!
   ]
 }
+
+// _difficultyBeatmapSets
+{
+  // ... Rest of Info.dat ...
+  "_songTimeOffset": 0,
+  "_difficultyBeatmapSets": [
+    {
+      "_beatmapCharacteristicName": "Standard",
+      "_difficultyBeatmaps": [
+        {
+          "_difficulty": "ExpertPlus",
+          "_difficultyRank": 9,
+          "_beatmapFilename": "StandardExpertPlus.dat",
+          "_noteJumpMovementSpeed": 18,
+          "_noteJumpStartBeatOffset": 0,
+          "_customData": {
+            // Any custom data will go here.
+            // If empty, this should be removed entirely.
+          }
+        }
+      ]
+    }
+  ]
+}
