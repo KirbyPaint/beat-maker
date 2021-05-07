@@ -1,0 +1,25 @@
+{
+  "_version": "2.0.0",
+  "_songName": "Example Song",
+  "_songSubName": "",
+  "_songAuthorName": "Song Artist",
+  "_levelAuthorName": "You",
+  "_beatsPerMinute": 120,
+  "_shuffle": 0,
+  "_shufflePeriod": 0.5,
+  "_previewStartTime": 31.5,
+  "_previewDuration": 7,
+  "_songFilename": "song.ogg",
+  "_coverImageFilename": "cover.jpg",
+  "_environmentName": "BigMirrorEnvironment",
+  "_allDirectionsEnvironmentName" : "GlassDesertEnvironment",
+  "_songTimeOffset": 0,
+  "_customData": {
+    // Any custom data will go here.
+    // If empty, this should be removed entirely.
+  },
+  "_difficultyBeatmapSets": [
+    // Difficulty beatmap sets (and difficulty beatmaps) are explained later down the page.
+    // Check the sidebar!
+  ]
+}
