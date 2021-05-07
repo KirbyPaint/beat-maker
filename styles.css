@@ -22,15 +22,27 @@
   grid-template-columns: 40px 40px 40px;
 }
 
+/* Directional grid */
+/* border-radius: top-left | top-right | bottom-right | bottom-left */
+#dir-4 {
+  border: 1px solid black;
+  border-radius: 10px 0px 0px 0px;
+}
+
 #dir-0 {
   border: 1px solid black;
 }
 
-#dir-1 {
+#dir-5 {
   border: 1px solid black;
+  border-radius: 0px 10px 0px 0px;
 }
 
 #dir-2 {
+  border: 1px solid black;
+}
+
+#dir-8 {
   border: 1px solid black;
 }
 
@@ -38,24 +50,18 @@
   border: 1px solid black;
 }
 
-#dir-4 {
-  border: 1px solid black;
-}
-
-#dir-5 {
-  border: 1px solid black;
-}
-
 #dir-6 {
+  border: 1px solid black;
+  border-radius: 0px 0px 0px 10px;
+}
+
+#dir-1 {
   border: 1px solid black;
 }
 
 #dir-7 {
   border: 1px solid black;
-}
-
-#dir-8 {
-  border: 1px solid black;
+  border-radius: 0px 0px 10px 0px;
 }
 
 .attributes-box-container {
