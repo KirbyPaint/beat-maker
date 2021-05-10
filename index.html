@@ -115,13 +115,69 @@
       <p>_songAuthorName:<input type="text" id="_songAuthorName" name="_songAuthorName"></p>
       <p>_levelAuthorName:<input type="text" id="_levelAuthorName" name="_levelAuthorName"></p>
       <p>_beatsPerMinute:<input type="text" id="_beatsPerMinute" name="_beatsPerMinute"></p>
-      <p>_shuffle:<input type="text" id="_shuffle" name="_shuffle"></p>
-      <p>_shufflePeriod:<input type="text" id="_shufflePeriod" name="_shufflePeriod"></p>
+      <p>
+        <span class="tooltip">_shuffle:
+          <span class="tooltiptext">This and _shufflePeriod are uncommon in the community. If your song has "swing" in
+            it, where some beats in a measure are intentionally offset from the rest, you can correct potential timing
+            issues in your map by utilizing _shuffle and _shufflePeriod.
+
+            _shuffle indicates how far objects will move when they are determined to be on a swing beat. A positive
+            value means they will be shifted forward in time, and a negative value means they will be shifted back in
+            time.
+
+            The total amount they will be offset by is described in _shufflePeriod, since they both work together to
+            produce that value.</span>
+        </span>
+        <input type="text" id="_shuffle" name="_shuffle">
+      </p>
+      <p>
+        <span class="tooltip">_shufflePeriod:
+          <span class="tooltiptext">_shufflePeriod is used to determine when a swing beat will occur. More specifically,
+            it is the time (in
+            beats) where a swing beat will occur.
+
+            But unfortunately, it's more complicated than this. Beat Saber alternates between a swing beat and a non
+            swing beat using this value. For example, let's assume you have a _shufflePeriod of 0.25. This tells Beat
+            Saber that, every 0.25 beats, it will alternate between a swing beat and a non swing beat, and will apply an
+            offset if it lands on a swing beat.
+
+            The offset value that will be applied to objects on a swing beat is approximately equal to _shuffle *
+            _shufflePeriod beats.
+
+            To hopefully help better understand this, here is a table of beats, whether or not they are on a swing beat,
+            and the actual beat objects at those times will spawn in at. For this example, we will assume that _shuffle
+            is 0.2, and _shufflePeriod is 0.25
+          </span>
+        </span>
+        <input type="text" id="_shufflePeriod" name="_shufflePeriod">
+      </p>
       <p>_previewStartTime:<input type="text" id="_previewStartTime" name="_previewStartTime"></p>
       <p>_previewDuration:<input type="text" id="_previewDuration" name="_previewDuration"></p>
       <p>_songFilename:<input type="text" id="_songFilename" name="_songFilename"></p>
       <p>_coverImageFilename:<input type="text" id="_coverImageFilename" name="_coverImageFilename"></p>
-      <p>_environmentName:<input type="text" id="_environmentName" name="_environmentName"></p>
+      <p>_environmentName:
+        <select id="_environmentName" name="_environmentName">
+          <option value="DefaultEnvironment">DefaultEnvironment</option>
+          <option value="OriginsEnvironment">OriginsEnvironment</option>
+          <option value="TriangleEnvironment">TriangleEnvironment</option>
+          <option value="NiceEnvironment">NiceEnvironment</option>
+          <option value="BigMirrorEnvironment">BigMirrorEnvironment</option>
+          <option value="DragonsEnvironment">DragonsEnvironment</option>
+          <option value="KDAEnvironment">KDAEnvironment</option>
+          <option value="MonstercatEnvironment">MonstercatEnvironment</option>
+          <option value="CrabRaveEnvironment">CrabRaveEnvironment</option>
+          <option value="PanicEnvironment">PanicEnvironment</option>
+          <option value="RocketEnvironment">RocketEnvironment</option>
+          <option value="GreenDayEnvironment">GreenDayEnvironment</option>
+          <option value="GreenDayGrenadeEnvironment">GreenDayGrenadeEnvironment</option>
+          <option value="TimbalandEnvironment">TimbalandEnvironment</option>
+          <option value="FitBeatEnvironment">FitBeatEnvironment</option>
+          <option value="LinkinParkEnvironment">LinkinParkEnvironment</option>
+          <option value="BTSEnvironment">BTSEnvironment</option>
+          <option value="KaleidoscopeEnvironment">KaleidoscopeEnvironment</option>
+          <option value="GlassDesertEnvironment">GlassDesertEnvironment</option>
+        </select>
+      </p>
       <p>_allDirectionsEnvironmentName:<input type="text" id="_allDirectionsEnvironmentName"
           name="_allDirectionsEnvironmentName"></p>
       <p>_songTimeOffset:<input type="text" id="_songTimeOffset" name="_songTimeOffset"></p>
