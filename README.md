@@ -7,3 +7,4 @@
 *  <a href="https://css-tricks.com/snippets/css/complete-guide-grid/">CSS Grid</a>
 *  <a href="https://css-tricks.com/the-shapes-of-css/">The Shapes of CSS</a>
 *  <a href="http://xahlee.info/comp/unicode_arrows.html">Unicode Arrows</a>
+*  <a href="https://www.w3schools.com/css/css_tooltip.asp">Tooltips</a>
