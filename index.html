@@ -102,9 +102,16 @@
       </button>
     </div>
     <div class="attributes-panel">
-      <p>_version:<input type="text" id="_version" name="_version"></p>
+      <p>_version:<input type="text" id="_version" name="_version" value="2.0.0" readonly></p>
       <p>_songName:<input type="text" id="_songName" name="_songName"></p>
-      <p>_songSubName:<input type="text" id="_songSubName" name="_songSubName"></p>
+      <p>
+        <span class="tooltip">_songSubName:
+          <span class="tooltiptext">This field describes any additional titles that could go into your song. These can
+            include additional artists (Such as featured artists) and any variation in production (Song remix, VIP,
+            etc.)</span>
+        </span>
+        <input type="text" id="_songSubName" name="_songSubName">
+      </p>
       <p>_songAuthorName:<input type="text" id="_songAuthorName" name="_songAuthorName"></p>
       <p>_levelAuthorName:<input type="text" id="_levelAuthorName" name="_levelAuthorName"></p>
       <p>_beatsPerMinute:<input type="text" id="_beatsPerMinute" name="_beatsPerMinute"></p>
@@ -127,6 +134,10 @@
       <tr>
         <th>Attribute</th>
         <th>Value</th>
+      </tr>
+      <tr>
+        <td>Current Beat:</td>
+        <td><span id="debug-current-beat"></span></td>
       </tr>
       <tr>
         <td>Selected Note Color:</td>
