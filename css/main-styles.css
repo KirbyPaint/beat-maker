@@ -22,10 +22,6 @@
   grid-template-columns: 40px 40px 40px;
 }
 
-.attributes-box-container {
-  background-color: black;
-}
-
 /* Default example note block */
 .note-block {
   width: 100px;
