@@ -106,7 +106,8 @@
       <p>_songName:<input type="text" id="_songName" name="_songName"></p>
       <p>
         <span class="tooltip">_songSubName:
-          <span class="tooltiptext">This field describes any additional titles that could go into your song. These can
+          <span class="tooltiptext">
+            This field describes any additional titles that could go into your song. These can
             include additional artists (Such as featured artists) and any variation in production (Song remix, VIP,
             etc.)</span>
         </span>
@@ -117,7 +118,8 @@
       <p>_beatsPerMinute:<input type="text" id="_beatsPerMinute" name="_beatsPerMinute"></p>
       <p>
         <span class="tooltip">_shuffle:
-          <span class="tooltiptext">This and _shufflePeriod are uncommon in the community. If your song has "swing" in
+          <span class="tooltiptext">
+            This and _shufflePeriod are uncommon in the community. If your song has "swing" in
             it, where some beats in a measure are intentionally offset from the rest, you can correct potential timing
             issues in your map by utilizing _shuffle and _shufflePeriod.
 
@@ -132,7 +134,8 @@
       </p>
       <p>
         <span class="tooltip">_shufflePeriod:
-          <span class="tooltiptext">_shufflePeriod is used to determine when a swing beat will occur. More specifically,
+          <span class="tooltiptext">
+            _shufflePeriod is used to determine when a swing beat will occur. More specifically,
             it is the time (in
             beats) where a swing beat will occur.
 
@@ -175,13 +178,36 @@
           <option value="LinkinParkEnvironment">LinkinParkEnvironment</option>
           <option value="BTSEnvironment">BTSEnvironment</option>
           <option value="KaleidoscopeEnvironment">KaleidoscopeEnvironment</option>
+        </select>
+      </p>
+      <p>
+        <span class="tooltip">_allDirectionsEnvironmentName:
+          <span class="tooltiptext">This is a required field, even if the level does not include any 360 or 90 Degree
+            difficulties.</span>
+        </span>
+        <select id="_allDirectionsEnvironmentName" name="_allDirectionsEnvironmentName">
           <option value="GlassDesertEnvironment">GlassDesertEnvironment</option>
         </select>
       </p>
-      <p>_allDirectionsEnvironmentName:<input type="text" id="_allDirectionsEnvironmentName"
-          name="_allDirectionsEnvironmentName"></p>
-      <p>_songTimeOffset:<input type="text" id="_songTimeOffset" name="_songTimeOffset"></p>
-      <p>_difficultyBeatmapSets:<input type="text" id="_difficultyBeatmapSets" name="_difficultyBeatmapSets"></p>
+      <p>
+        <span class="tooltip">_songTimeOffset:
+          <span class="tooltiptext">
+            This is Beat Saber's method for tackling off-sync audio. This offsets the audio in
+            game, based off the value of _songTimeOffset in milliseconds.
+            <em>Hit sounds are also affected by the same offset.</em>
+          </span>
+        </span>
+        <input type="text" id="_songTimeOffset" name="_songTimeOffset">
+      </p>
+      <p>_difficultyBeatmapSets:
+        <select id="_difficultyBeatmapSets" name="_difficultyBeatmapSets">
+          <option value="1">Easy</option>
+          <option value="3">Normal</option>
+          <option value="5">Hard</option>
+          <option value="7">Expert</option>
+          <option value="9">ExpertPlus</option>
+        </select>
+      </p>
     </div>
   </div>
   <div class="debug-console component">
