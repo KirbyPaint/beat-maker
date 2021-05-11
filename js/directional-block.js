@@ -10,7 +10,7 @@ $(document).ready(function () {
       // Need to reassign the div for the selected element
       row = digitSwitch(row);
       col = digitSwitch(col);
-      document.getElementById(`${row}-${col}`).innerHTML = 4;
+      document.getElementById(`${row}-${col}`).innerHTML = "🡔";
     }
   });
 
@@ -24,7 +24,7 @@ $(document).ready(function () {
       // Need to reassign the div for the selected element
       row = digitSwitch(row);
       col = digitSwitch(col);
-      document.getElementById(`${row}-${col}`).innerHTML = 0;
+      document.getElementById(`${row}-${col}`).innerHTML = "↑";
     }
   });
 
@@ -38,7 +38,7 @@ $(document).ready(function () {
       // Need to reassign the div for the selected element
       row = digitSwitch(row);
       col = digitSwitch(col);
-      document.getElementById(`${row}-${col}`).innerHTML = 5;
+      document.getElementById(`${row}-${col}`).innerHTML = "🡕";
     }
   });
 
@@ -52,7 +52,7 @@ $(document).ready(function () {
       // Need to reassign the div for the selected element
       row = digitSwitch(row);
       col = digitSwitch(col);
-      document.getElementById(`${row}-${col}`).innerHTML = 2;
+      document.getElementById(`${row}-${col}`).innerHTML = "←";
     }
   });
 
@@ -66,7 +66,7 @@ $(document).ready(function () {
       // Need to reassign the div for the selected element
       row = digitSwitch(row);
       col = digitSwitch(col);
-      document.getElementById(`${row}-${col}`).innerHTML = 8;
+      document.getElementById(`${row}-${col}`).innerHTML = "•";
     }
   });
 
@@ -80,7 +80,7 @@ $(document).ready(function () {
       // Need to reassign the div for the selected element
       row = digitSwitch(row);
       col = digitSwitch(col);
-      document.getElementById(`${row}-${col}`).innerHTML = 3;
+      document.getElementById(`${row}-${col}`).innerHTML = "→";
     }
   });
 
@@ -94,7 +94,7 @@ $(document).ready(function () {
       // Need to reassign the div for the selected element
       row = digitSwitch(row);
       col = digitSwitch(col);
-      document.getElementById(`${row}-${col}`).innerHTML = 6;
+      document.getElementById(`${row}-${col}`).innerHTML = "🡗";
     }
   });
 
@@ -108,7 +108,7 @@ $(document).ready(function () {
       // Need to reassign the div for the selected element
       row = digitSwitch(row);
       col = digitSwitch(col);
-      document.getElementById(`${row}-${col}`).innerHTML = 1;
+      document.getElementById(`${row}-${col}`).innerHTML = "↓";
     }
   });
 
@@ -122,7 +122,7 @@ $(document).ready(function () {
       // Need to reassign the div for the selected element
       row = digitSwitch(row);
       col = digitSwitch(col);
-      document.getElementById(`${row}-${col}`).innerHTML = 7;
+      document.getElementById(`${row}-${col}`).innerHTML = "🡖";
     }
   });
 });

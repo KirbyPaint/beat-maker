@@ -6,7 +6,7 @@
   /* border-radius: 10px; */
 }
 
-#red-block, #blue-block, #bomb-block, #wall-block, .black-style, .blue-style, .red-style, .bomb-style {
+#red-block, #blue-block, #bomb-block, #wall-block, #clear-block, .black-style, .blue-style, .red-style, .bomb-style {
   width: 120px;
   height: 120px;
   border-radius: 10px;
@@ -31,4 +31,11 @@
 
 #wall-block {
   background: pink;
+}
+
+.select-style {
+  box-shadow: 10px 10px #33ff00,
+  -10px 10px #33ff00,
+  10px -10px #33ff00,
+  -10px -10px #33ff00;
 }
