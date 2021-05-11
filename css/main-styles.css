@@ -6,7 +6,7 @@ h1 {
   /* float: left; */
   position: fixed;
   top: 0px;
-  left: 0px;
+  left: 50px;
 }
 
 .site-grid-container {
