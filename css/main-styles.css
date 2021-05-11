@@ -1,7 +1,13 @@
+h1 {
+  font-family: 'Teko', sans-serif;
+}
+
 .site-grid-container {
   display: grid;
   grid-template-rows: 1;
-  grid-template-columns: 50% 25% auto;
+  grid-template-columns: 50% 15% auto;
+  justify-content: center;
+  align-items: center;
 }
 
 .note-grid-container {
