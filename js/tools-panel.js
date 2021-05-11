@@ -1,3 +1,23 @@
+function digitSwitch(digit) {
+  switch (digit) {
+    case 0:
+      digit = "zero";
+      break;
+    case 1:
+      digit = "one";
+      break;
+    case 2:
+      digit = "two";
+      break;
+    case 3:
+      digit = "three";
+      break;
+    default:
+      break;
+  }
+  return digit;
+}
+
 $(document).ready(function () {
   // Note colors
   $("button#red-block").click(function () {
@@ -8,35 +28,8 @@ $(document).ready(function () {
 
     if (row >= 0 && col >= 0) {
       // Need to reassign the div for the selected element
-      switch (row) {
-        case 0:
-          row = "zero";
-          break;
-        case 1:
-          row = "one";
-          break;
-        case 2:
-          row = "two";
-          break;
-        default:
-          break;
-      }
-      switch (col) {
-        case 0:
-          col = "zero";
-          break;
-        case 1:
-          col = "one";
-          break;
-        case 2:
-          col = "two";
-          break;
-        case 3:
-          col = "three";
-          break;
-        default:
-          break;
-      }
+      row = digitSwitch(row);
+      col = digitSwitch(col);
       var element = document.getElementById(`${row}-${col}`);
       element.classList.remove("black-style");
       element.classList.remove("blue-style");
@@ -51,36 +44,8 @@ $(document).ready(function () {
     let col = parseInt(document.getElementById("debug-note-col").textContent);
 
     if (row >= 0 && col >= 0) {
-      // Need to reassign the div for the selected element
-      switch (row) {
-        case 0:
-          row = "zero";
-          break;
-        case 1:
-          row = "one";
-          break;
-        case 2:
-          row = "two";
-          break;
-        default:
-          break;
-      }
-      switch (col) {
-        case 0:
-          col = "zero";
-          break;
-        case 1:
-          col = "one";
-          break;
-        case 2:
-          col = "two";
-          break;
-        case 3:
-          col = "three";
-          break;
-        default:
-          break;
-      }
+      row = digitSwitch(row);
+      col = digitSwitch(col);
       var element = document.getElementById(`${row}-${col}`);
       element.classList.remove("black-style");
       element.classList.remove("red-style");
