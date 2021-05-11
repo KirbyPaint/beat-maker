@@ -33,6 +33,7 @@ $(document).ready(function () {
       var element = document.getElementById(`${row}-${col}`);
       element.classList.remove("black-style");
       element.classList.remove("blue-style");
+      element.classList.remove("bomb-style");
       element.classList.add("red-style");
     }
   });
@@ -48,6 +49,7 @@ $(document).ready(function () {
       col = digitSwitch(col);
       var element = document.getElementById(`${row}-${col}`);
       element.classList.remove("black-style");
+      element.classList.remove("bomb-style");
       element.classList.remove("red-style");
       element.classList.add("blue-style");
     }
@@ -55,6 +57,19 @@ $(document).ready(function () {
 
   $("button#bomb-block").click(function () {
     document.getElementById("debug-note-color").innerHTML = 3;
+
+    let row = parseInt(document.getElementById("debug-note-row").textContent);
+    let col = parseInt(document.getElementById("debug-note-col").textContent);
+
+    if (row >= 0 && col >= 0) {
+      row = digitSwitch(row);
+      col = digitSwitch(col);
+      var element = document.getElementById(`${row}-${col}`);
+      element.classList.remove("black-style");
+      element.classList.remove("blue-style");
+      element.classList.remove("red-style");
+      element.classList.add("bomb-style");
+    }
   });
 
   // Need to figure out the exact specs for this one...
