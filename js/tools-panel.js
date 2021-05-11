@@ -65,6 +65,7 @@ $(document).ready(function () {
       row = digitSwitch(row);
       col = digitSwitch(col);
       var element = document.getElementById(`${row}-${col}`);
+      element.innerHTML = "";
       element.classList.remove("black-style");
       element.classList.remove("blue-style");
       element.classList.remove("red-style");
