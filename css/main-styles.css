@@ -3,10 +3,10 @@ h1 {
 }
 
 .header-image-container {
-  float: left;
-  /* position: fixed;
+  /* float: left; */
+  position: fixed;
   top: 0px;
-  left: 0px; */
+  left: 0px;
 }
 
 .site-grid-container {
