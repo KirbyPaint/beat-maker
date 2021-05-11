@@ -78,7 +78,18 @@ $(document).ready(function () {
   });
 
   $("button#clear-block").click(function () {
-    // document.getElementById("debug-note-color").innerHTML = "wall";
-    alert("clear");
+    let row = parseInt(document.getElementById("debug-note-row").textContent);
+    let col = parseInt(document.getElementById("debug-note-col").textContent);
+
+    if (row >= 0 && col >= 0) {
+      row = digitSwitch(row);
+      col = digitSwitch(col);
+      var element = document.getElementById(`${row}-${col}`);
+      element.innerHTML = "";
+      element.classList.remove("blue-style");
+      element.classList.remove("red-style");
+      element.classList.remove("bomb-style");
+      element.classList.add("black-style");
+    }
   });
 });
