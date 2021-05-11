@@ -11,3 +11,4 @@
 *  <a href="https://www.instructables.com/How-to-make-glowing-text-in-PaintNET/">How to Make Glowing Text</a>
 *  <a href="https://fonts.google.com/specimen/Teko">Menu Font</a>
 *  <a href="https://befonts.com/neon-tubes-neon-light-font-free.html">Header Font</a>
+*  <a href="https://stackoverflow.com/questions/18920542/draw-an-x-in-css">Draw an X in CSS</a>

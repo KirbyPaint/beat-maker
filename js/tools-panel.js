@@ -76,4 +76,9 @@ $(document).ready(function () {
   $("button#wall-block").click(function () {
     document.getElementById("debug-note-color").innerHTML = "wall";
   });
+
+  $("button#clear-block").click(function () {
+    // document.getElementById("debug-note-color").innerHTML = "wall";
+    alert("clear");
+  });
 });
