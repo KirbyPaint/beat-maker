@@ -6,30 +6,28 @@
   /* border-radius: 10px; */
 }
 
-#red-block {
+#red-block, #blue-block, #bomb-block, #wall-block, .black-style, .blue-style, .red-style {
   width: 120px;
   height: 120px;
-  background: red;
   border-radius: 10px;
 }
 
-#blue-block {
-  width: 120px;
-  height: 120px;
+.black-style {
+  background: black;
+}
+
+#red-block, .red-style {
+  background: red;
+}
+
+#blue-block, .blue-style {
   background: blue;
-  border-radius: 10px;
 }
 
 #bomb-block {
-  width: 120px;
-  height: 120px;
   background: gray;
-  border-radius: 10px;
 }
 
 #wall-block {
-  width: 120px;
-  height: 120px;
   background: pink;
-  border-radius: 10px;
 }
