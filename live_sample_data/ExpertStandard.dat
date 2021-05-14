@@ -1,0 +1,32 @@
+{
+  "_version": "2.0.0",
+  "_customData": {
+    "_time": 205,
+    "_BPMChanges": []
+  },
+  // Events are things like walls, lighting changes, etc... unlikely to use these in the final version
+  "_events": [{
+    "_time": 13.916000366210938,
+    "_type": 3,
+    "_value": 3
+  }],
+  "_notes": [{
+    "_time": 32.916000366210938,
+    "_lineIndex": 1,
+    "_lineLayer": 1,
+    "_type": 0,
+    "_cutDirection": 1
+  }, {
+    "_time": 34.916000366210938,
+    "_lineIndex": 2,
+    "_lineLayer": 1,
+    "_type": 1,
+    "_cutDirection": 1
+  }, {
+    "_time": 36.916000366210938,
+    "_lineIndex": 1,
+    "_lineLayer": 0,
+    "_type": 0,
+    "_cutDirection": 1
+  }]
+}
