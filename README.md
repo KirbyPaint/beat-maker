@@ -53,6 +53,7 @@ Note: these recommendations come from my own personal experiences. There may be 
 *  <a href="https://beatsage.com/">Beat Sage</a>
 *  <a href="https://youtu.be/v_hR4K4auoQ?list=PLl-K7zZEsYLluG5MCVEzXAQ7ACZBCuZgZ">NoSQL Database with Firestore Series</a>
 *  <a href="https://www.youtube.com/watch?v=5Ex6sOEVgrM">Level Editor Tutorial | Beat Saber Explained</a>
+*  <a href="https://ourcodeworld.com/articles/read/189/how-to-create-a-file-and-generate-a-download-with-javascript-in-the-browser-without-a-server">JavaScript create downloadable text file</a>
 
 <hr>
 
