@@ -1,4 +1,8 @@
 $(document).ready(function () {
   // info.dat 
-  // $( ".inner" ).append( "<p>Test</p>" );
+  $("button#export-data-button").click(function () {
+    const versionData = $("#_version").val();
+    $("#_version_data").append(versionData);
+    alert(versionData);
+  });
 });

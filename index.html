@@ -216,6 +216,11 @@
           <option value="9">ExpertPlus</option>
         </select>
       </p>
+
+      <button id="export-data-button" type="button">
+        Export Info.dat To Text
+      </button>
+
     </div>
   </div>
   <div class="debug-console component">
@@ -247,7 +252,7 @@
     </div>
     <div class="info-data-output">
       <p>{</p>
-        <p>"_version": "2.0.0",</p>
+        <p>"_version": <span id="_version_data"></span>,</p>
         <p>"_songName": "Dance Through The Danger",</p>
         <p>"_songSubName": "",</p>
         <p>"_songAuthorName": "RichaadEB",</p>
