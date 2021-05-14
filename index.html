@@ -104,9 +104,9 @@
       <!-- Placeholder for Wall Block -->
       <button id="wall-block" type="button">
       </button>
-      <button id="export-data" type="button">
+      <!-- <button id="export-data" type="button">
         export chart data
-      </button>
+      </button> -->
     </div>
     <!-- Attributes Panel -->
     <div class="attributes-panel">
@@ -145,8 +145,7 @@
         <span class="tooltip">_shufflePeriod:
           <span class="tooltiptext">
             _shufflePeriod is used to determine when a swing beat will occur. More specifically,
-            it is the time (in
-            beats) where a swing beat will occur.
+            it is the time (in beats) where a swing beat will occur.
 
             But unfortunately, it's more complicated than this. Beat Saber alternates between a swing beat and a non
             swing beat using this value. For example, let's assume you have a _shufflePeriod of 0.25. This tells Beat
@@ -239,7 +238,7 @@
       </tr>
       <tr>
         <td><strong>Value:</strong></td>
-        <td><span id="debug-current-beat"></span></td>
+        <td><input type="number" id="debug-note-beat" name="debug-note-beat"></td>
         <td><span id="debug-note-color"></span></td>
         <td><span id="debug-note-angle"></span></td>
         <td><span id="debug-note-row"></span></td>
@@ -249,7 +248,7 @@
   </div>
   <div class="export-data">
     <div class="note-data-output">
-      TEXT HERE LATER
+      {"_time": <span id="_time_data"></span>, "_lineIndex": <span id="_lineIndex_data"></span>, "_lineLayer": <span id="_lineLayer_data"></span>, "_type": <span id="_type_data"></span>, "_cutDirection": <span id="_cutDirection_data"></span>}
     </div>
     <div class="info-data-output">
       <p>{</p>
@@ -298,5 +297,9 @@
     </div>
   </div>
 </body>
+
+<button id="export-data" type="button">
+  export chart data
+</button>
 
 </html>
