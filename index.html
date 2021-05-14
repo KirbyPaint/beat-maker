@@ -16,6 +16,7 @@
   <link rel="shortcut icon" href="#">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="js/attributes-panel.js"></script>
+  <script src="js/download-files.js"></script>
   <script src="js/directional-block.js"></script>
   <script src="js/export-notes.js"></script>
   <script src="js/note-grid.js"></script>
@@ -25,6 +26,32 @@
 
 <body>
   <div class="header-image-container"><img src="img/logo.png"></div>
+
+  <!-- TEST -->
+  <!-- <script>
+  function download(filename, text) {
+    var element = document.createElement('a');
+    element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+    element.setAttribute('download', filename);
+  
+    element.style.display = 'none';
+    document.body.appendChild(element);
+  
+    element.click();
+  
+    document.body.removeChild(element);
+  }
+  
+  // Start file download.
+  download("hello.txt","This is the content of my file :)");  
+  </script> -->
+
+<button id="download-note-data" type="button">
+  TEST TEST TEST DOWNLOAD SAMPLE
+</button>
+
+  <!-- TEST -->
+  
   <div class="site-grid-container">
     <!-- 4x3 note grid -->
     <div class="note-grid-container">
@@ -250,7 +277,7 @@
   <div class="export-data">
     <div class="note-data-output">
     </div>
-    <div class="info-data-output">
+    <div id="info-data-output">
       <p>{</p>
         <p>"_version": <span id="_version_data"></span>,</p>
         <p>"_songName": "<span id="_songName_data"></span>",</p>
