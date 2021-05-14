@@ -27,12 +27,9 @@ $(document).ready(function () {
         angle = $("#debug-note-row").text();
         row = $("#debug-note-row").text();
         col = $("#debug-note-col").text();
+        // alert(`{"_time": ${beat}, "_lineIndex": ${col}, "_lineLayer": ${row}, "_type": ${color}, "_cutDirection": ${angle}}`);
         if (beat && color && angle && row && col) {
-          $("#_time_data").text(beat);
-          $("#_lineIndex_data").text(color);
-          $("#_lineLayer_data").text(angle);
-          $("#_type_data").text(row);
-          $("#_cutDirection_data").text(col);
+          $(".note-data-output").append(`<p>{"_time": ${beat}, "_lineIndex": ${col}, "_lineLayer": ${row}, "_type": ${color}, "_cutDirection": ${angle}}</p>`);
         }
       }
     });
