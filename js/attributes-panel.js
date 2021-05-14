@@ -16,5 +16,8 @@ $(document).ready(function () {
     $("#_coverImageFilename_data").text($("#_coverImageFilename").val());
     $("#_environmentName_data").text($("#_environmentName").val());
     $("#_allDirectionsEnvironmentName_data").text($("#_allDirectionsEnvironmentName").val());
+
+    alert("Info.dat ready for download");
+    $("#download-note-data").show();
   });
 });

@@ -2,6 +2,11 @@ h1 {
   font-family: 'Teko', sans-serif;
 }
 
+/* Hide the info.dat text, user will be downloading this */
+#info-data-output {
+  display: none;
+}
+
 .header-image-container {
   /* float: left; */
   position: fixed;
@@ -41,6 +46,17 @@ h1 {
   grid-template-columns: 50% auto;
 }
 
+#data-management-buttons {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  font-family: 'Teko', sans-serif;
+}
+
+#data-management-buttons button {
+  font-family: 'Teko', sans-serif;
+  font-size: 36px;
+}
+
 /* Default example note block */
 .note-block {
   width: 100px;
@@ -53,4 +69,8 @@ h1 {
   border: 2px solid black;
   margin: 10px;
   padding: 10px;
+}
+
+#download-note-data {
+  display: none;
 }
