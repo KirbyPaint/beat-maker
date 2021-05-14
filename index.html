@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="css/note-grid.css">
   <link rel="stylesheet" href="css/tools-panel.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/attributes-panel.js"></script>
   <script src="js/directional-block.js"></script>
   <script src="js/export-notes.js"></script>
   <script src="js/note-grid.js"></script>
@@ -107,6 +108,7 @@
         export chart data
       </button>
     </div>
+    <!-- Attributes Panel -->
     <div class="attributes-panel">
       <p>_version:<input type="text" id="_version" name="_version" value="2.0.0" readonly></p>
       <p>_songName:<input type="text" id="_songName" name="_songName"></p>
@@ -215,6 +217,11 @@
           <option value="9">ExpertPlus</option>
         </select>
       </p>
+
+      <button id="export-data-button" type="button">
+        Export Info.dat To Text
+      </button>
+
     </div>
   </div>
   <div class="debug-console component">
@@ -239,6 +246,56 @@
         <td><span id="debug-note-col"></span></td>
       </tr>
     </table>
+  </div>
+  <div class="export-data">
+    <div class="note-data-output">
+      TEXT HERE LATER
+    </div>
+    <div class="info-data-output">
+      <p>{</p>
+        <p>"_version": <span id="_version_data"></span>,</p>
+        <p>"_songName": "<span id="_songName_data"></span>",</p>
+        <p>"_songSubName": "<span id="_songSubName_data"></span>",</p>
+        <p>"_songAuthorName": "<span id="_songAuthorName_data"></span>",</p>
+        <p>"_levelAuthorName": "<span id="_levelAuthorName_data"></span>",</p>
+        <p>"_beatsPerMinute": <span id="_beatsPerMinute_data"></span>,</p>
+        <p>"_songTimeOffset": <span id="_songTimeOffset_data"></span>,</p>
+        <p>"_shuffle": <span id="_shuffle_data"></span>,</p>
+        <p>"_shufflePeriod": <span id="_shufflePeriod_data"></span>,</p>
+        <p>"_previewStartTime": <span id="_previewStartTime_data"></span>,</p>
+        <p>"_previewDuration": <span id="_previewDuration_data"></span>,</p>
+        <p>"_songFilename": "<span id="_songFilename_data"></span>",</p>
+        <p>"_coverImageFilename": "<span id="_coverImageFilename_data"></span>",</p>
+        <p>"_environmentName": "<span id="_environmentName_data"></span>",</p>
+        <p>"_allDirectionsEnvironmentName": "<span id="_allDirectionsEnvironmentName_data"></span>",</p>
+        <p>"_difficultyBeatmapSets": [{</p>
+          <p>"_beatmapCharacteristicName": "Standard",</p>
+          <p>"_difficultyBeatmaps": [{</p>
+            <p>"_difficulty": "Hard",</p>
+            <p>"_difficultyRank": 5,</p>
+            <p>"_beatmapFilename": "Hard.dat",</p>
+            <p>"_noteJumpMovementSpeed": 10,</p>
+            <p>"_noteJumpStartBeatOffset": 0.0</p>
+          <p>}, {</p>
+            <p>"_difficulty": "Expert",</p>
+            <p>"_difficultyRank": 7,</p>
+            <p>"_beatmapFilename": "Expert.dat",</p>
+            <p>"_noteJumpMovementSpeed": 12,</p>
+            <p>"_noteJumpStartBeatOffset": 0.0</p>
+          <p>}]</p>
+        <p>}],</p>
+        <p>"_customData": {</p>
+          <p>"_editors": {</p>
+            <p>"_lastEditedBy": "beatsage",</p>
+            <p>"beatsage": {</p>
+              <p>"version": "2.0.0",</p>
+              <p>"id": "1aefd888fb7d4b12a6d036f004a3f11f",</p>
+              <p>"events": ["DotBlocks", "Obstacles", "Bombs"]</p>
+            <p>}</p>
+          <p>}</p>
+        <p>}</p>
+      <p>}</p>
+    </div>
   </div>
 </body>
 

@@ -12,3 +12,5 @@
 *  <a href="https://fonts.google.com/specimen/Teko">Menu Font</a>
 *  <a href="https://befonts.com/neon-tubes-neon-light-font-free.html">Header Font</a>
 *  <a href="https://stackoverflow.com/questions/18920542/draw-an-x-in-css">Draw an X in CSS</a>
+*  <a href="https://beatsage.com/">Beat Sage</a>
+*  <a href="https://youtu.be/v_hR4K4auoQ?list=PLl-K7zZEsYLluG5MCVEzXAQ7ACZBCuZgZ">NoSQL Database with Firestore Series</a>
