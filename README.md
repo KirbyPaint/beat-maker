@@ -13,7 +13,32 @@
 TODO
 
 ## What is Beat Maker
+Beat Maker is a browser application in development. The goal of this project is for a user to be able to create their own Beat Saber song charts using minimal outside resources
 
+## What Can This Tool Do
+
+## What CAN'T This Tool Do
+This tool will not be able to edit audio files, create custom cover art, or package the final product. It is simply a chart creation tool. 
+
+## How Do I Make A Good Beat Saber Chart
+Practice, practice, practice! Beat Saber charting, while simplistic, does have a bit of a learning curve, especially since creating the chart in a 2D medium doesn't always translate perfectly to a VR game. You may think that your chart map looks great, only to find that playing it is a nightmare. These charts require lots of minute tweaking and playtesting, and often it's best to have a buddy playtest the chart for you, to get past your own chart blindness.  
+The <a href="https://bsmg.wiki/mapping/#mapping-quick-start">BSMG Wiki</a> has lots of helpful tools to get you started.
+
+## How Can I Add This Chart Data To MY Beat Saber Game?
+There are plenty of resources out there to assist with packaging the final product. In short, a Beat Saber track MUST have:  
+*  info.dat
+*  song.ogg OR song.egg
+*  cover.jpg
+*  Chart data, as listed in the info.dat file
+
+These are the MINIMUM required files.  
+Additionally, as of this writing, adding custom charts is not natively supported. You will need to mod your game, and as modding does come with certain inherent risks, I will not endorse a specific mod over another. However, a simple internet search will present a few good options.
+
+## Author Recommended Editing Tools
+*  <a href="https://www.getpaint.net/">paint.NET</a> for cover art editing and saving
+*  <a href="https://www.audacityteam.org/">Audacity</a> for audio file editing
+*  <a href="https://notepad-plus-plus.org/downloads/">Notepad++</a> if there are any last-minute finishing touches needed for the file data  
+Note: these recommendations come from my own personal experiences. There may be much better tools out there to get the specific jobs done; however these three were my personal favorites when I manually created charts in the past.
 
 ## Resources
 *  <a href="https://bsmg.wiki/mapping/map-format.html#base-object">Note Charting</a>
