@@ -6,7 +6,7 @@
 <a href="https://www.linkedin.com/in/ash-porter-kirbypaint/">Find Me on LinkedIn</a> | 
 <a href="mailto:porter.ashley13@gmail.com">Contact Me Directly</a>
 
-<img src="https://cdn.discordapp.com/attachments/799876599372840964/842841023604719617/bluenote.png" width="60px"><img src="https://cdn.discordapp.com/attachments/799876599372840964/842840330809507870/logo.png"><img src="https://cdn.discordapp.com/attachments/799876599372840964/842447775345410088/rednote.png" width="60px">
+<img src="https://cdn.discordapp.com/attachments/799876599372840964/842841023604719617/bluenote.png" width="75px"><img src="https://cdn.discordapp.com/attachments/799876599372840964/842840330809507870/logo.png"><img src="https://cdn.discordapp.com/attachments/799876599372840964/842447775345410088/rednote.png" width="75px">
 <hr>
 
 ## Table of Contents
