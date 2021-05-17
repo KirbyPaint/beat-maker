@@ -15,12 +15,12 @@ function downloadInfo(filename, text) {
 $(document).ready(function () {
   $("button#download-note-data").click(function () {
     const infoData = document.getElementById("info-data-output").innerText;
-    downloadInfo("info.txt", infoData);
+    downloadInfo("info.dat", infoData);
   });
 
   $("button#download-chart-data").click(function () {
     const noteData = document.getElementById("note-data-output").innerText;
     const difficultyFileName = $("#_difficultyBeatmapSets :selected").text();
-    downloadInfo(`${difficultyFileName}Standard.txt`, noteData);
+    downloadInfo(`${difficultyFileName}Standard.dat`, noteData);
   });
 });
