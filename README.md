@@ -1,4 +1,4 @@
-# Beat Maker
+# Beat Maker (IN PROGRESS)
 
 ## A Beat Saber song charting tool
 
@@ -61,8 +61,8 @@ Note: these recommendations come from my own personal experiences. There may be 
 
 *  HTML5
 *  CSS
-*  
 *  jQuery 3.5.1
+*  
 *  
 *  
 *  
