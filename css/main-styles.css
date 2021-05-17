@@ -9,7 +9,7 @@ h1 {
 
 .header-image-container {
   /* float: left; */
-  position: fixed;
+  position: absolute;
   top: 0px;
   left: 50px;
 }

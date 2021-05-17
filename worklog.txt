@@ -11,6 +11,9 @@ lunch/idly working on data entry fields exporting
 1:00 - 2:34
 working on converting data on page to usable data, no database yet but need to ensure that the data given is actually valid
 
+2:34 - end of day 
+
+
 TODO
 MONDAY : Complete note grid chart (I.E. make it so one button will spit out the entire note chart on that beat)
 TUESDAY : Provided the above is complete, check how to save this chart in other ways than a simple exportable text file. If file can be saved, consider if a chart can be uploaded and then edited further.
