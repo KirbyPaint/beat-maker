@@ -72,6 +72,7 @@ h1 {
   padding: 10px;
 }
 
+/* Hide button */
 #download-note-data {
-  display: none;
+  /* display: none; */
 }
