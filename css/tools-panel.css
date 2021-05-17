@@ -80,19 +80,48 @@
   background: black;
 }
 
-#red-block,
-.red-style {
+#red-block {
   background: red;
 }
 
-#blue-block,
-.blue-style {
-  background: blue;
+.red-style {
+  background: red;
+  box-shadow:
+    0 0 5px 2px red,
+    0 0 10px 5px magenta,
+    0 0 12px 12px maroon;
 }
 
-#bomb-block,
-.bomb-style {
+#blue-block {
+  background-color: blue;
+}
+
+.blue-style {
+  background: blue;
+  box-shadow:
+    0 0 5px 2px blue,
+    0 0 10px 5px lightskyblue,
+    0 0 12px 12px darkblue;
+}
+
+.triangle {
+  background-image: url("../img/triangle.png");
+  width: 100px;
+  height: 50px;
+  background-position: top;
+  background-repeat: no-repeat;
+  transform: translateY(-20px);
+}
+
+#bomb-block {
   background: gray;
+}
+
+.bomb-style {
+  box-shadow:
+    0 0 5px 2px gray,
+    0 0 10px 5px lightgray,
+    0 0 12px 12px darkgray;
 }
 
 #wall-block {

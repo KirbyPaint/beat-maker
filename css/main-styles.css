@@ -39,10 +39,6 @@ h1 {
   filter: drop-shadow(10px 10px 4px black);
 }
 
-.header-image-container img:after {
-  filter: drop-shadow(14px 14px 4px white);
-}
-
 .site-grid-container {
   display: grid;
   grid-template-rows: 1;

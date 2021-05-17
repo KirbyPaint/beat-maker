@@ -1,9 +1,7 @@
 /* offset-x | offset-y | blur-radius | spread-radius | color */
 #prepare-info-dat,
 #download-chart-data {
-  /* width: 400px; */
   width: auto;
-  /* height: 20px; */
   height: auto;
   border-radius: 4px;
   background-color: #fff;
@@ -17,9 +15,7 @@
 
 #save-beat-as-notes,
 #download-note-data {
-  /* width: 400px; */
   width: auto;
-  /* height: 20px; */
   height: auto;
   border-radius: 4px;
   background-color: #fff;
