@@ -1,6 +1,6 @@
 $(document).ready(function () {
   // info.dat 
-  $("button#export-data-button").click(function () {
+  $("button#prepare-info-dat").click(function () {
     $("#_version_data").text($("#_version").val());
     $("#_songName_data").text($("#_songName").val());
     $("#_songSubName_data").text($("#_songSubName").val());

@@ -4,7 +4,16 @@
   height: 120px;
 }
 
-#red-block, #blue-block, #bomb-block, #wall-block, #clear-block, .black-style, .blue-style, .red-style, .bomb-style {
+#red-block,
+#blue-block,
+#bomb-block,
+#wall-block,
+#clear-block,
+#save-block,
+.black-style,
+.blue-style,
+.red-style,
+.bomb-style {
   width: 120px;
   height: 120px;
   border-radius: 10px;
@@ -15,21 +24,70 @@
   background: black;
 }
 
-#red-block, .red-style {
+#red-block,
+.red-style {
   background: red;
 }
 
-#blue-block, .blue-style {
+#blue-block,
+.blue-style {
   background: blue;
 }
 
-#bomb-block, .bomb-style {
+#bomb-block,
+.bomb-style {
   background: gray;
 }
 
 #wall-block {
   background: pink;
 }
+
+/* #save-block {
+  color: lightgreen;
+  text-shadow: 1px 1px black,
+    1px 0px black,
+    0px 1px black,
+    0px 0px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 100px;
+} */
+
+#save-block {
+  position: relative;
+  display: inline-block;
+  /* width: 30px;
+  height: 30px; */
+}
+
+#save-block::before {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 30%;
+  width: 14px;
+  background-color: green;
+  content: "";
+  transform: translateX(34px) rotate(-45deg);
+  transform-origin: left bottom;
+}
+
+#save-block::after {
+  position: absolute;
+  left: 0;
+  bottom: 15%;
+  height: 14px;
+  width: 80%;
+  background-color: green;
+  content: "";
+  transform: translateX(40px) rotate(-45deg);
+  transform-origin: left bottom;
+}
+
+
 
 /* Clear button red x css */
 #clear-block {
@@ -45,7 +103,8 @@
   position: absolute;
   content: '';
   width: 100%;
-  height: 14px; /* cross thickness */
+  height: 14px;
+  /* cross thickness */
   background-color: red;
 }
 
@@ -60,7 +119,7 @@
 /* Highlight coloring */
 .select-style {
   box-shadow: 10px 10px #33ff00,
-  -10px 10px #33ff00,
-  10px -10px #33ff00,
-  -10px -10px #33ff00;
+    -10px 10px #33ff00,
+    10px -10px #33ff00,
+    -10px -10px #33ff00;
 }

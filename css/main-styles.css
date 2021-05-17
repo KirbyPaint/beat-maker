@@ -5,7 +5,7 @@ h1 {
 /* Hide the info.dat text, user will be downloading this */
 /* Disable hiding for test purposes */
 #info-data-output {
-  /* display: none; */
+  display: none;
 }
 
 .header-image-container {
@@ -42,14 +42,14 @@ h1 {
   grid-template-columns: 40px 40px 40px;
 }
 
-.export-data {
+.save-beat-as-notes {
   display: grid;
   grid-template-columns: 50% auto;
 }
 
 #data-management-buttons {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 25% 25% 25% 25%;
   font-family: 'Teko', sans-serif;
 }
 

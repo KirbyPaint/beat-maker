@@ -19,7 +19,7 @@ function reverseDigitSwitch(digit) {
 }
 
 $(document).ready(function () {
-  $("button#export-data").click(function () {
+  $("button#save-beat-as-notes").click(function () {
     document.querySelectorAll('*').forEach(function (node) {
       if (node.classList.contains("blue-style") || node.classList.contains("bomb-style") || node.classList.contains("red-style")) {
         beat = $("#debug-note-beat").val();
@@ -29,7 +29,7 @@ $(document).ready(function () {
         col = $("#debug-note-col").text();
         // alert(`{"_time": ${beat}, "_lineIndex": ${col}, "_lineLayer": ${row}, "_type": ${color}, "_cutDirection": ${angle}}`);
         if (beat && color && angle && row && col) {
-          $(".note-data-output").append(`<p>{"_time": ${beat}, "_lineIndex": ${col}, "_lineLayer": ${row}, "_type": ${color}, "_cutDirection": ${angle}}</p>`);
+          $(".note-data-output").append(`{"_time": ${beat}, "_lineIndex": ${col}, "_lineLayer": ${row}, "_type": ${color}, "_cutDirection": ${angle}}<br>`);
         }
       }
     });
