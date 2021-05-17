@@ -16,3 +16,4 @@ MONDAY : Complete note grid chart (I.E. make it so one button will spit out the 
 TUESDAY : Provided the above is complete, check how to save this chart in other ways than a simple exportable text file. If file can be saved, consider if a chart can be uploaded and then edited further.
 WEDNESDAY : IF THIS ALL IS COMPLETE - create a basic chart and test it out in real time 
 THURSDAY : No major changes - only finalizing cosmetic changes (all buttons with a Beat Saber theme, background not just plain white, buttons use the note block icons not just red and blue, etc.)
+Also clean up the VARs in the code - change to const, or let only when required
