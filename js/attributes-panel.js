@@ -16,6 +16,9 @@ $(document).ready(function () {
     $("#_coverImageFilename_data").text($("#_coverImageFilename").val());
     $("#_environmentName_data").text($("#_environmentName").val());
     $("#_allDirectionsEnvironmentName_data").text($("#_allDirectionsEnvironmentName").val());
+    $("#_difficultyBeatmapSetsName_data").text($("#_difficultyBeatmapSets :selected").text());
+    $("#_difficultyBeatmapSets_data").text($("#_difficultyBeatmapSets").val());
+    $("#_difficultyBeatmapSetsFileName_data").text($("#_difficultyBeatmapSets :selected").text());
 
     alert("Info.dat ready for download");
     $("#download-note-data").show();

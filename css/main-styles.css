@@ -3,8 +3,9 @@ h1 {
 }
 
 /* Hide the info.dat text, user will be downloading this */
+/* Disable hiding for test purposes */
 #info-data-output {
-  display: none;
+  /* display: none; */
 }
 
 .header-image-container {
