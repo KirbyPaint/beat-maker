@@ -24,7 +24,7 @@ $(document).ready(function () {
       if (node.classList.contains("blue-style") || node.classList.contains("bomb-style") || node.classList.contains("red-style")) {
         beat = $("#debug-note-beat").val();
         color = $("#debug-note-color").text();
-        angle = $("#debug-note-row").text();
+        angle = $("#debug-note-angle").text();
         row = $("#debug-note-row").text();
         col = $("#debug-note-col").text();
         // alert(`{"_time": ${beat}, "_lineIndex": ${col}, "_lineLayer": ${row}, "_type": ${color}, "_cutDirection": ${angle}}`);

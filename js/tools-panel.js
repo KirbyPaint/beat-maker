@@ -90,7 +90,14 @@ $(document).ready(function () {
       element.classList.remove("blue-style");
       element.classList.remove("red-style");
       element.classList.remove("bomb-style");
+      element.classList.remove("select-style");
       element.classList.add("black-style");
     }
+
+    $("#debug-note-beat").text("");
+    $("#debug-note-color").text("");
+    $("#debug-note-angle").text("");
+    $("#debug-note-row").text("");
+    $("#debug-note-col").text("");
   });
 });

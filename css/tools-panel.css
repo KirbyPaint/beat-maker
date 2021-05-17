@@ -20,47 +20,9 @@
   font-size: 48px;
 }
 
-.black-style {
-  background: black;
-}
-
-#red-block,
-.red-style {
-  background: red;
-}
-
-#blue-block,
-.blue-style {
-  background: blue;
-}
-
-#bomb-block,
-.bomb-style {
-  background: gray;
-}
-
-#wall-block {
-  background: pink;
-}
-
-/* #save-block {
-  color: lightgreen;
-  text-shadow: 1px 1px black,
-    1px 0px black,
-    0px 1px black,
-    0px 0px black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: bolder;
-  font-size: 100px;
-} */
-
 #save-block {
   position: relative;
   display: inline-block;
-  /* width: 30px;
-  height: 30px; */
 }
 
 #save-block::before {
@@ -87,8 +49,6 @@
   transform-origin: left bottom;
 }
 
-
-
 /* Clear button red x css */
 #clear-block {
   position: relative;
@@ -114,6 +74,29 @@
 
 #clear-block::after {
   transform: rotate(-45deg);
+}
+
+.black-style {
+  background: black;
+}
+
+#red-block,
+.red-style {
+  background: red;
+}
+
+#blue-block,
+.blue-style {
+  background: blue;
+}
+
+#bomb-block,
+.bomb-style {
+  background: gray;
+}
+
+#wall-block {
+  background: pink;
 }
 
 /* Highlight coloring */
