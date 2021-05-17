@@ -1,3 +1,23 @@
+body {
+  background: linear-gradient(90deg, red, maroon, black, darkblue, blue);
+  background-size: 400% 100%;
+  animation: gradient 60s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 h1 {
   font-family: 'Teko', sans-serif;
 }
@@ -15,10 +35,18 @@ h1 {
   left: 50px;
 }
 
+.header-image-container img {
+  filter: drop-shadow(10px 10px 4px black);
+}
+
+.header-image-container img:after {
+  filter: drop-shadow(14px 14px 4px white);
+}
+
 .site-grid-container {
   display: grid;
   grid-template-rows: 1;
-  grid-template-columns: 40% 30% auto;
+  grid-template-columns: 35% 10% 20% auto;
   justify-content: center;
   align-items: center;
 }
@@ -27,13 +55,16 @@ h1 {
   display: grid;
   grid-template-rows: 140px 140px 140px;
   grid-template-columns: 140px 140px 140px 140px;
+  justify-content: center;
+  align-items: center;
 }
 
 .tools-grid-container {
   display: grid;
   grid-template-rows: 140px 140px 140px;
   grid-template-columns: 140px 140px;
-  /* grid-template-columns: auto; */
+  justify-content: center;
+  align-items: center;
 }
 
 .directional-grid-container {
@@ -51,6 +82,10 @@ h1 {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   font-family: 'Teko', sans-serif;
+
+  position: relative;
+  left: 0;
+  bottom: -100px;
 }
 
 #data-management-buttons button {
@@ -68,6 +103,7 @@ h1 {
 /* Add easy black outline to any component */
 .component {
   border: 2px solid black;
+  background-color: white;
   margin: 10px;
   padding: 10px;
 }

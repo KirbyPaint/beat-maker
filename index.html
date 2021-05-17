@@ -33,7 +33,7 @@
   <div class="site-grid-container">
 
     <!-- 4x3 note grid -->
-    <div class="note-grid-container">
+    <div class="note-grid-container component">
       <!-- Top Row -->
       <button id="zero-zero" type="button" class="black-style">
       </button>
@@ -63,6 +63,13 @@
       </button>
     </div>
 
+    <div class="component">
+      <div id="current-beat">
+        CURRENT BEAT<br>
+        <input type="number" id="note-beat" name="note-beat">
+      </div>
+    </div>
+
     <!--    ___________     ___________  
           /_________/ |   /_________/ | 
           |  _____  | |   |    _    | | 
@@ -70,7 +77,7 @@
           |   \_/   | |   |  /___\  | | 
           \_________|/    \_________|/   -->
 
-    <div class="tools-grid-container">
+    <div class="tools-grid-container component">
       <!-- Placeholder for Note Block Directional Grid -->
       <div id="directional-block">
         <div class="directional-grid-container">
@@ -126,7 +133,7 @@
     </div>
 
     <!-- Attributes Panel -->
-    <div class="attributes-panel">
+    <div class="attributes-panel component">
       <p>_version:<input type="text" id="_version" name="_version" value="2.0.0" readonly></p>
       <p>_songName:<input type="text" id="_songName" name="_songName"></p>
       <p>
@@ -253,7 +260,7 @@
       </tr>
       <tr>
         <td><strong>Value:</strong></td>
-        <td><input type="number" id="debug-note-beat" name="debug-note-beat"></td>
+        <td><span id="debug-note-beat"></span></td>
         <td><span id="debug-note-color"></span></td>
         <td><span id="debug-note-angle"></span></td>
         <td><span id="debug-note-row"></span></td>
@@ -263,7 +270,7 @@
   </div>
 
   <!-- Export Buttons -->
-  <div id="data-management-buttons" class="component">
+  <div id="data-management-buttons">
     <button id="prepare-info-dat" type="button">
       Export Info.dat To Text
     </button>

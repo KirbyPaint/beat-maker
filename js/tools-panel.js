@@ -39,6 +39,10 @@ function reverseDigitSwitch(digit) {
 }
 
 $(document).ready(function () {
+  $("#note-beat").click(function () {
+    $("#debug-note-beat").text($("#note-beat").val());
+  });
+
   // Note colors
   $("button#red-block").click(function () {
     document.getElementById("debug-note-color").innerHTML = 0;
