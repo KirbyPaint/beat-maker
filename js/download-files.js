@@ -14,7 +14,13 @@ function downloadInfo(filename, text) {
 // Start file download.
 $(document).ready(function () {
   $("button#download-note-data").click(function () {
-    const data = document.getElementById("info-data-output").innerText;
-    downloadInfo("info.txt", data);
+    const infoData = document.getElementById("info-data-output").innerText;
+    downloadInfo("info.txt", infoData);
+  });
+
+  $("button#download-chart-data").click(function () {
+    const noteData = document.getElementById("note-data-output").innerText;
+    const difficultyFileName = $("#_difficultyBeatmapSets :selected").text();
+    downloadInfo(`${difficultyFileName}Standard.txt`, noteData);
   });
 });
