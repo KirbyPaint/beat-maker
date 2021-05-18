@@ -19,6 +19,8 @@ $(document).ready(function () {
     $("#_difficultyBeatmapSetsName_data").text($("#_difficultyBeatmapSets :selected").text());
     $("#_difficultyBeatmapSets_data").text($("#_difficultyBeatmapSets").val());
     $("#_difficultyBeatmapSetsFileName_data").text($("#_difficultyBeatmapSets :selected").text());
+    $("#_noteJumpMovementSpeed_data").text($("#_noteJumpMovementSpeed").val());
+    $("#_noteJumpStartBeatOffset_data").text($("#_noteJumpStartBeatOffset").val());
 
     alert("Info.dat ready for download");
     $("#download-note-data").show();
