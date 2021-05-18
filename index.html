@@ -18,6 +18,7 @@
   <link rel="shortcut icon" href="#">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="js/attributes-panel.js"></script>
+  <script src="js/beat-control.js"></script>
   <script src="js/download-files.js"></script>
   <script src="js/directional-block.js"></script>
   <script src="js/export-notes.js"></script>
@@ -64,15 +65,15 @@
       </button>
     </div>
 
-    <div class="current-beat-container component">
+    <div class="current-beat-container component custom-font">
       <div id="current-beat">
-        BEAT<br>
-        <input type="number" id="note-beat" name="note-beat">
+        <p class="font-72">BEAT</p>
+        <!-- <input type="number" id="note-beat" name="note-beat"> -->
         <button id="decrease-beat" type="button" class="beat-down">
         </button>
         <button id="increase-beat" type="button" class="beat-up">
-        </button>
-        <span id="beat-number"></span>
+        </button><br>
+        <span id="beat-number">0</span>
       </div>
     </div>
 
