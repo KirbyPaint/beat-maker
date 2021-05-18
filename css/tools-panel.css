@@ -93,6 +93,14 @@
     0 0 5px 2px blue,
     0 0 10px 5px lightskyblue,
     0 0 12px 12px darkblue;
+  transition: 0.1s;
+}
+
+.blue-style:hover {
+  /* background: blue; */
+  transition: 0.1s;
+  box-shadow:
+    0 0 5px 2px white;
 }
 
 #save-clear-style,
@@ -127,8 +135,9 @@
 
 /* Highlight coloring */
 .select-style {
-  box-shadow: 10px 10px #33ff00,
+  box-shadow: 0px 0px 10px 10px #33ff00;
+  /* box-shadow: 10px 10px #33ff00,
     -10px 10px #33ff00,
     10px -10px #33ff00,
-    -10px -10px #33ff00;
+    -10px -10px #33ff00; */
 }
