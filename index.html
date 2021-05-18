@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/attributes-panel.css">
+  <link rel="stylesheet" href="css/beat-control.css">
   <link rel="stylesheet" href="css/debug-panel.css">
   <link rel="stylesheet" href="css/directional-block.css">
   <link rel="stylesheet" href="css/export-buttons.css">
@@ -63,10 +64,15 @@
       </button>
     </div>
 
-    <div class="component">
+    <div class="current-beat-container component">
       <div id="current-beat">
-        CURRENT BEAT<br>
+        BEAT<br>
         <input type="number" id="note-beat" name="note-beat">
+        <button id="decrease-beat" type="button" class="beat-down">
+        </button>
+        <button id="increase-beat" type="button" class="beat-up">
+        </button>
+        <span id="beat-number"></span>
       </div>
     </div>
 
