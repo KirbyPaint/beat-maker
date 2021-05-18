@@ -6,6 +6,8 @@
   background-image: url("../img/triangleleft.png");
   background-position: right;
   background-repeat: no-repeat;
+  box-shadow: 0 0 10px red;
+  margin-right: 10px;
 }
 
 .beat-up {
@@ -16,6 +18,8 @@
   background-image: url("../img/triangleright.png");
   background-position: left;
   background-repeat: no-repeat;
+  box-shadow: 0 0 10px blue;
+  margin-left: 10px;
 }
 
 .custom-font {
@@ -36,9 +40,6 @@
 
 .big-beat {
   font-size: 140px;
-  /* margin-bottom: -200px; */
-  /* border: 2px solid black; */
-  /* margin: -30px 0; */
 }
 
 .beat-buttons {
