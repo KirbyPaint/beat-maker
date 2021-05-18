@@ -1,6 +1,7 @@
 .attributes-panel {
-  font-family: 'Courier New', Courier, monospace;
-  border: 2px solid black;
+  font-family: 'Teko', sans-serif;
+  font-size: 24px;
+  border-style: 10px;
   text-align: right;
 }
 
@@ -8,7 +9,8 @@
 .tooltip {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  border-bottom: 1px dotted black;
+  /* If you want dots under the hoverable text */
 }
 
 /* Tooltip text */
@@ -20,7 +22,7 @@
   text-align: center;
   padding: 10px 10px;
   border-radius: 6px;
- 
+
   /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 1;

@@ -146,118 +146,118 @@
 
     <!-- Attributes Panel -->
     <div class="attributes-panel component">
-      <p>_version:<input type="text" id="_version" name="_version" value="2.0.0" readonly></p>
-      <p>_songName:<input type="text" id="_songName" name="_songName"></p>
-      <p>
-        <span class="tooltip">_songSubName:
-          <span class="tooltiptext">
-            This field describes any additional titles that could go into your song. These can
-            include additional artists (Such as featured artists) and any variation in production (Song remix, VIP,
-            etc.)
-          </span>
-        </span>
-        <input type="text" id="_songSubName" name="_songSubName">
-      </p>
-      <p>_songAuthorName:<input type="text" id="_songAuthorName" name="_songAuthorName"></p>
-      <p>_levelAuthorName:<input type="text" id="_levelAuthorName" name="_levelAuthorName"></p>
-      <p>_beatsPerMinute:<input type="text" id="_beatsPerMinute" name="_beatsPerMinute"></p>
-      <p>
-        <span class="tooltip">_shuffle:
-          <span class="tooltiptext">
-            This and _shufflePeriod are uncommon in the community. If your song has "swing" in
-            it, where some beats in a measure are intentionally offset from the rest, you can correct potential timing
-            issues in your map by utilizing _shuffle and _shufflePeriod.
+      _version:<input type="text" id="_version" name="_version" value="2.0.0" readonly><br>
+      _songName:<input type="text" id="_songName" name="_songName"><br>
 
-            _shuffle indicates how far objects will move when they are determined to be on a swing beat. A positive
-            value means they will be shifted forward in time, and a negative value means they will be shifted back in
-            time.
-
-            The total amount they will be offset by is described in _shufflePeriod, since they both work together to
-            produce that value.</span>
+      <span class="tooltip">_songSubName:
+        <span class="tooltiptext">
+          This field describes any additional titles that could go into your song. These can
+          include additional artists (Such as featured artists) and any variation in production (Song remix, VIP,
+          etc.)
         </span>
-        <input type="text" id="_shuffle" name="_shuffle">
-      </p>
-      <p>
-        <span class="tooltip">_shufflePeriod:
-          <span class="tooltiptext">
-            _shufflePeriod is used to determine when a swing beat will occur. More specifically,
-            it is the time (in beats) where a swing beat will occur.
+      </span>
+      <input type="text" id="_songSubName" name="_songSubName">
+      <br>
+      _songAuthorName:<input type="text" id="_songAuthorName" name="_songAuthorName"><br>
+      _levelAuthorName:<input type="text" id="_levelAuthorName" name="_levelAuthorName"><br>
+      _beatsPerMinute:<input type="text" id="_beatsPerMinute" name="_beatsPerMinute"><br>
 
-            But unfortunately, it's more complicated than this. Beat Saber alternates between a swing beat and a non
-            swing beat using this value. For example, let's assume you have a _shufflePeriod of 0.25. This tells Beat
-            Saber that, every 0.25 beats, it will alternate between a swing beat and a non swing beat, and will apply an
-            offset if it lands on a swing beat.
+      <span class="tooltip">_shuffle:
+        <span class="tooltiptext">
+          This and _shufflePeriod are uncommon in the community. If your song has "swing" in
+          it, where some beats in a measure are intentionally offset from the rest, you can correct potential timing
+          issues in your map by utilizing _shuffle and _shufflePeriod.
 
-            The offset value that will be applied to objects on a swing beat is approximately equal to _shuffle *
-            _shufflePeriod beats.
+          _shuffle indicates how far objects will move when they are determined to be on a swing beat. A positive
+          value means they will be shifted forward in time, and a negative value means they will be shifted back in
+          time.
 
-            To hopefully help better understand this, here is a table of beats, whether or not they are on a swing beat,
-            and the actual beat objects at those times will spawn in at. For this example, we will assume that _shuffle
-            is 0.2, and _shufflePeriod is 0.25
-          </span>
+          The total amount they will be offset by is described in _shufflePeriod, since they both work together to
+          produce that value.</span>
+      </span>
+      <input type="text" id="_shuffle" name="_shuffle">
+      <br>
+
+      <span class="tooltip">_shufflePeriod:
+        <span class="tooltiptext">
+          _shufflePeriod is used to determine when a swing beat will occur. More specifically,
+          it is the time (in beats) where a swing beat will occur.
+
+          But unfortunately, it's more complicated than this. Beat Saber alternates between a swing beat and a non
+          swing beat using this value. For example, let's assume you have a _shufflePeriod of 0.25. This tells Beat
+          Saber that, every 0.25 beats, it will alternate between a swing beat and a non swing beat, and will apply an
+          offset if it lands on a swing beat.
+
+          The offset value that will be applied to objects on a swing beat is approximately equal to _shuffle *
+          _shufflePeriod beats.
+
+          To hopefully help better understand this, here is a table of beats, whether or not they are on a swing beat,
+          and the actual beat objects at those times will spawn in at. For this example, we will assume that _shuffle
+          is 0.2, and _shufflePeriod is 0.25
         </span>
-        <input type="text" id="_shufflePeriod" name="_shufflePeriod">
-      </p>
-      <p>_previewStartTime:<input type="text" id="_previewStartTime" name="_previewStartTime"></p>
-      <p>_previewDuration:<input type="text" id="_previewDuration" name="_previewDuration"></p>
-      <p>_songFilename:<input type="text" id="_songFilename" name="_songFilename"></p>
-      <p>_coverImageFilename:<input type="text" id="_coverImageFilename" name="_coverImageFilename"></p>
-      <p>_environmentName:
-        <select id="_environmentName" name="_environmentName">
-          <option value="DefaultEnvironment">DefaultEnvironment</option>
-          <option value="OriginsEnvironment">OriginsEnvironment</option>
-          <option value="TriangleEnvironment">TriangleEnvironment</option>
-          <option value="NiceEnvironment">NiceEnvironment</option>
-          <option value="BigMirrorEnvironment">BigMirrorEnvironment</option>
-          <option value="DragonsEnvironment">DragonsEnvironment</option>
-          <option value="KDAEnvironment">KDAEnvironment</option>
-          <option value="MonstercatEnvironment">MonstercatEnvironment</option>
-          <option value="CrabRaveEnvironment">CrabRaveEnvironment</option>
-          <option value="PanicEnvironment">PanicEnvironment</option>
-          <option value="RocketEnvironment">RocketEnvironment</option>
-          <option value="GreenDayEnvironment">GreenDayEnvironment</option>
-          <option value="GreenDayGrenadeEnvironment">GreenDayGrenadeEnvironment</option>
-          <option value="TimbalandEnvironment">TimbalandEnvironment</option>
-          <option value="FitBeatEnvironment">FitBeatEnvironment</option>
-          <option value="LinkinParkEnvironment">LinkinParkEnvironment</option>
-          <option value="BTSEnvironment">BTSEnvironment</option>
-          <option value="KaleidoscopeEnvironment">KaleidoscopeEnvironment</option>
-        </select>
-      </p>
-      <p>
-        <span class="tooltip">_allDirectionsEnvironmentName:
-          <span class="tooltiptext">This is a required field, even if the level does not include any 360 or 90 Degree
-            difficulties.</span>
+      </span>
+      <input type="text" id="_shufflePeriod" name="_shufflePeriod">
+      <br>
+      _previewStartTime:<input type="text" id="_previewStartTime" name="_previewStartTime"><br>
+      _previewDuration:<input type="text" id="_previewDuration" name="_previewDuration"><br>
+      _songFilename:<input type="text" id="_songFilename" name="_songFilename"><br>
+      _coverImageFilename:<input type="text" id="_coverImageFilename" name="_coverImageFilename"><br>
+      _environmentName:
+      <select id="_environmentName" name="_environmentName">
+        <option value="DefaultEnvironment">DefaultEnvironment</option>
+        <option value="OriginsEnvironment">OriginsEnvironment</option>
+        <option value="TriangleEnvironment">TriangleEnvironment</option>
+        <option value="NiceEnvironment">NiceEnvironment</option>
+        <option value="BigMirrorEnvironment">BigMirrorEnvironment</option>
+        <option value="DragonsEnvironment">DragonsEnvironment</option>
+        <option value="KDAEnvironment">KDAEnvironment</option>
+        <option value="MonstercatEnvironment">MonstercatEnvironment</option>
+        <option value="CrabRaveEnvironment">CrabRaveEnvironment</option>
+        <option value="PanicEnvironment">PanicEnvironment</option>
+        <option value="RocketEnvironment">RocketEnvironment</option>
+        <option value="GreenDayEnvironment">GreenDayEnvironment</option>
+        <option value="GreenDayGrenadeEnvironment">GreenDayGrenadeEnvironment</option>
+        <option value="TimbalandEnvironment">TimbalandEnvironment</option>
+        <option value="FitBeatEnvironment">FitBeatEnvironment</option>
+        <option value="LinkinParkEnvironment">LinkinParkEnvironment</option>
+        <option value="BTSEnvironment">BTSEnvironment</option>
+        <option value="KaleidoscopeEnvironment">KaleidoscopeEnvironment</option>
+      </select>
+      <br>
+
+      <span class="tooltip">_allDirectionsEnvironmentName:
+        <span class="tooltiptext">This is a required field, even if the level does not include any 360 or 90 Degree
+          difficulties.</span>
+      </span>
+      <select id="_allDirectionsEnvironmentName" name="_allDirectionsEnvironmentName">
+        <option value="GlassDesertEnvironment">GlassDesertEnvironment</option>
+      </select>
+      <br>
+
+      <span class="tooltip">_songTimeOffset:
+        <span class="tooltiptext">
+          This is Beat Saber's method for tackling off-sync audio. This offsets the audio in
+          game, based off the value of _songTimeOffset in milliseconds.
+          <em>Hit sounds are also affected by the same offset.</em>
         </span>
-        <select id="_allDirectionsEnvironmentName" name="_allDirectionsEnvironmentName">
-          <option value="GlassDesertEnvironment">GlassDesertEnvironment</option>
-        </select>
-      </p>
-      <p>
-        <span class="tooltip">_songTimeOffset:
-          <span class="tooltiptext">
-            This is Beat Saber's method for tackling off-sync audio. This offsets the audio in
-            game, based off the value of _songTimeOffset in milliseconds.
-            <em>Hit sounds are also affected by the same offset.</em>
-          </span>
-        </span>
-        <input type="text" id="_songTimeOffset" name="_songTimeOffset">
-      </p>
-      <p>_difficultyBeatmapSets:
-        <select id="_difficultyBeatmapSets" name="_difficultyBeatmapSets">
-          <option value="1">Easy</option>
-          <option value="3">Normal</option>
-          <option value="5">Hard</option>
-          <option value="7">Expert</option>
-          <option value="9">ExpertPlus</option>
-        </select>
-      </p>
-      <p>
-        _noteJumpMovementSpeed:<input type="text" id="_noteJumpMovementSpeed" name="_noteJumpMovementSpeed">
-      </p>
-      <p>
-        _noteJumpStartBeatOffset:<input type="text" id="_noteJumpStartBeatOffset" name="_noteJumpStartBeatOffset">
-      </p>
+      </span>
+      <input type="text" id="_songTimeOffset" name="_songTimeOffset">
+      <br>
+      _difficultyBeatmapSets:
+      <select id="_difficultyBeatmapSets" name="_difficultyBeatmapSets">
+        <option value="1">Easy</option>
+        <option value="3">Normal</option>
+        <option value="5">Hard</option>
+        <option value="7">Expert</option>
+        <option value="9">ExpertPlus</option>
+      </select>
+      <br>
+
+      _noteJumpMovementSpeed:<input type="text" id="_noteJumpMovementSpeed" name="_noteJumpMovementSpeed">
+      <br>
+
+      _noteJumpStartBeatOffset:<input type="text" id="_noteJumpStartBeatOffset" name="_noteJumpStartBeatOffset">
+      <br>
     </div>
   </div>
 
