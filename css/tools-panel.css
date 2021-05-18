@@ -4,16 +4,7 @@
   height: 120px;
 }
 
-#red-block,
-#blue-block,
-#bomb-block,
-#wall-block,
-#clear-block,
-#save-block,
-.black-style,
-.blue-style,
-.red-style,
-.bomb-style {
+.button-block {
   width: 120px;
   height: 120px;
   border-radius: 10px;
@@ -104,6 +95,11 @@
     0 0 12px 12px darkblue;
 }
 
+#save-clear-style,
+.save-clear-style {
+  background-color: lightgray;
+}
+
 .triangle {
   background-image: url("../img/triangle.png");
   width: 100px;
@@ -113,15 +109,21 @@
   transform: translateY(-20px);
 }
 
-#bomb-block {
-  background: gray;
+#bomb-block,
+.bomb-style {
+  background-color: gray;
 }
 
 .bomb-style {
   box-shadow:
-    0 0 5px 2px gray,
-    0 0 10px 5px lightgray,
-    0 0 12px 12px darkgray;
+    /* 0 0 5px 2px gray, */
+    0 0 10px 5px lightgray;
+  /* 0 0 12px 12px darkgray; */
+}
+
+.bomb-image {
+  /* background-image: url("../img/bomb.png"); */
+  /* filter: drop-shadow(10px 10px 4px black); */
 }
 
 #wall-block {
