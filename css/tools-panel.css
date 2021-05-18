@@ -98,6 +98,8 @@
 #save-clear-style,
 .save-clear-style {
   background-color: lightgray;
+  box-shadow:
+    0 0 10px 5px lightgray;
 }
 
 .triangle {
@@ -116,14 +118,7 @@
 
 .bomb-style {
   box-shadow:
-    /* 0 0 5px 2px gray, */
     0 0 10px 5px lightgray;
-  /* 0 0 12px 12px darkgray; */
-}
-
-.bomb-image {
-  /* background-image: url("../img/bomb.png"); */
-  /* filter: drop-shadow(10px 10px 4px black); */
 }
 
 #wall-block {
