@@ -1,6 +1,6 @@
 /* offset-x | offset-y | blur-radius | spread-radius | color */
 #prepare-info-dat,
-#download-chart-data {
+#save-beat-as-notes {
   width: auto;
   height: auto;
   border-radius: 4px;
@@ -13,8 +13,8 @@
   margin: 0 25px;
 }
 
-#save-beat-as-notes,
-#download-note-data {
+#download-note-data,
+#download-chart-data {
   width: auto;
   height: auto;
   border-radius: 4px;

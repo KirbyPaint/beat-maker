@@ -145,7 +145,7 @@
     </div>
 
     <!-- Attributes Panel -->
-    <div class="attributes-panel component">
+    <div class="attributes-panel">
       _version:<input type="text" id="_version" name="_version" value="2.0.0" class="resizedTextbox" readonly><br>
       _songName:<input type="text" id="_songName" name="_songName" class="resizedTextbox"><br>
 
@@ -204,7 +204,7 @@
       _coverImageFilename:<input type="text" id="_coverImageFilename" name="_coverImageFilename"
         class="resizedTextbox"><br>
       _environmentName:
-      <select id="_environmentName" name="_environmentName" class="resizedTextbox">
+      <select id="_environmentName" name="_environmentName" class="resizedDropdownBox">
         <option value="DefaultEnvironment">DefaultEnvironment</option>
         <option value="OriginsEnvironment">OriginsEnvironment</option>
         <option value="TriangleEnvironment">TriangleEnvironment</option>
@@ -230,7 +230,7 @@
         <span class="tooltiptext">This is a required field, even if the level does not include any 360 or 90 Degree
           difficulties.</span>
       </span>
-      <select id="_allDirectionsEnvironmentName" name="_allDirectionsEnvironmentName" class="resizedTextbox">
+      <select id="_allDirectionsEnvironmentName" name="_allDirectionsEnvironmentName" class="resizedDropdownBox">
         <option value="GlassDesertEnvironment">GlassDesertEnvironment</option>
       </select>
       <br>
@@ -245,7 +245,7 @@
       <input type="text" id="_songTimeOffset" name="_songTimeOffset" class="resizedTextbox">
       <br>
       _difficultyBeatmapSets:
-      <select id="_difficultyBeatmapSets" name="_difficultyBeatmapSets" class="resizedTextbox">
+      <select id="_difficultyBeatmapSets" name="_difficultyBeatmapSets" class="resizedDropdownBox">
         <option value="1">Easy</option>
         <option value="3">Normal</option>
         <option value="5">Hard</option>
@@ -293,18 +293,15 @@
     <button id="prepare-info-dat" type="button">
       Export Info.dat To Text
     </button>
+    <button id="download-note-data" type="button">
+      Download Info File (As .dat)
+    </button>
     <button id="save-beat-as-notes" type="button">
-      Convert Chart To Notes
+      Convert Current Beat Chart To Notes
     </button>
     <button id="download-chart-data" type="button">
       Download Chart File (As .dat)
     </button>
-    <button id="download-note-data" type="button">
-      Download Info File (As .dat)
-    </button>
-    <!-- <div class="glow-bar">
-
-    </div> -->
   </div>
 
   <div class="save-beat-as-notes">
