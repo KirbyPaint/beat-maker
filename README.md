@@ -9,17 +9,21 @@
 <img src="https://cdn.discordapp.com/attachments/799876599372840964/842841023604719617/bluenote.png" width="75px"><img src="https://cdn.discordapp.com/attachments/799876599372840964/842840330809507870/logo.png"><img src="https://cdn.discordapp.com/attachments/799876599372840964/842447775345410088/rednote.png" width="75px">
 <hr>
 
-## Table of Contents
-TODO
+## <u>Table of Contents</u>
+* <a href="#how-to-use-the-program">How To Use The Program</a>
+* <a href="#what-is-beat-maker">What is Beat Maker</a>
+* <a href="#what-can-this-tool-do">What Can This Tool Do</a>
+* <a href="#what-requires-outside-tools">What Requires Outside Tools</a>
+* <a href="#how-do-i-make-a-good-beat-saber-chart">How Do I Make A Good Beat Saber Chart</a>
 
 ## What is Beat Maker
 Beat Maker is a browser application in development. The goal of this project is for a user to be able to create their own Beat Saber song charts using minimal outside resources
 
 ## What Can This Tool Do
+This tool can take a beat
 
-
-## What CAN'T This Tool Do
-This tool will not be able to edit audio files, create custom cover art, or package the final product. It is simply a chart creation tool. 
+## What Requires Outside Tools
+This tool will not be able to edit audio files, create custom cover art, or package the final product. It is simply a chart creation tool.  
 
 ## How Do I Make A Good Beat Saber Chart
 Practice, practice, practice! Beat Saber charting, while simplistic, does have a bit of a learning curve, especially since creating the chart in a 2D medium doesn't always translate perfectly to a VR game. You may think that your chart map looks great, only to find that playing it is a nightmare. These charts require lots of minute tweaking and playtesting, and often it's best to have a buddy playtest the chart for you, to get past your own chart blindness.  
