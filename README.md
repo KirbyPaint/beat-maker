@@ -16,6 +16,22 @@
 * <a href="#what-requires-outside-tools">What Requires Outside Tools</a>
 * <a href="#how-do-i-make-a-good-beat-saber-chart">How Do I Make A Good Beat Saber Chart</a>
 
+## How To Use Beat Maker
+The Beat Maker screen has a few different and notable sections to it.  
+From left to right, top to bottom:  
+
+<u>Note Grid</u>: This is a 3-row-4-column grid of clickable black boxes that represents Beat Saber's note grid. Clicking a box will highlight the chosen block, and attributes can then be added to this note, that will then be later exported into a note.  
+
+<u>Beat</u>: This determines which beat the note(s) will render on.  
+
+<u>Tool Grid</u>: This grid contains six different tools. In order, from left to right, top to bottom:  
+*  Slash Angle: This will determine what angle the note needs to be slashed at, or if the center dot button is chosen, it will assign the omni-angle attribute to that note block.
+*  Bomb: Currently unimplemented.
+*  Red Block: Assigns the selected note to be a red block.
+*  Blue Block: Assigns the selected note to be a blue block.
+*  Save Block: Exports the current chart into usable game code.
+*  Delete Block: Clicking this block while a block on the chart is highlighted green will clear all attributes from the selected block.  
+
 ## What is Beat Maker
 Beat Maker is a browser application in development. The goal of this project is for a user to be able to create their own Beat Saber song charts using minimal outside resources
 
