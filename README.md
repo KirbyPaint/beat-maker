@@ -17,6 +17,7 @@ Beat Maker is a browser application in development. The goal of this project is 
 
 ## What Can This Tool Do
 
+
 ## What CAN'T This Tool Do
 This tool will not be able to edit audio files, create custom cover art, or package the final product. It is simply a chart creation tool. 
 
