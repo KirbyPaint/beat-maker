@@ -10,11 +10,14 @@
 <hr>
 
 ## <u>Table of Contents</u>
-* <a href="#how-to-use-the-program">How To Use The Program</a>
 * <a href="#what-is-beat-maker">What is Beat Maker</a>
+* <a href="#how-to-use-the-program">How To Use The Program</a>
 * <a href="#what-can-this-tool-do">What Can This Tool Do</a>
 * <a href="#what-requires-outside-tools">What Requires Outside Tools</a>
 * <a href="#how-do-i-make-a-good-beat-saber-chart">How Do I Make A Good Beat Saber Chart</a>
+
+## What is Beat Maker
+Beat Maker is a browser application in development. The goal of this project is for a user to be able to create their own Beat Saber song charts using minimal outside resources
 
 ## How To Use Beat Maker
 The Beat Maker screen has a few different and notable sections to it.  
@@ -30,10 +33,17 @@ From left to right, top to bottom:
 *  Red Block: Assigns the selected note to be a red block.
 *  Blue Block: Assigns the selected note to be a blue block.
 *  Save Block: Exports the current chart into usable game code.
-*  Delete Block: Clicking this block while a block on the chart is highlighted green will clear all attributes from the selected block.  
+*  Delete Block: Clicking this block while a block on the chart is highlighted green will clear all attributes from the selected block only.  
 
-## What is Beat Maker
-Beat Maker is a browser application in development. The goal of this project is for a user to be able to create their own Beat Saber song charts using minimal outside resources
+<u>Attributes List</u>: This list determines certain in-game attributes, including the title of the track, author, BPM, etc. <a href="https://bsmg.wiki/mapping/map-format.html#info-dat">See this list for all attributes and required details</a>. Most attributes will allow any input; however note that if the input requires a time, please input a number, or the info.dat file will fail to load in the game. Additionally, some sections are listed as a drop-down only, to prevent an invalid input.    
+
+<u>Export Info.dat To Text</u>: This button takes the data listed in the Attributes panel and prepares it for exporting. A message appears after the export, confirming that the export is complete.  
+
+<u>Download Info File (As .dat)</u>: This button will bring up a prompt to the user, allowing the info.dat file to be saved locally to the computer.  
+
+<u>Convert Current Beat Chart To Notes</u>: This button functions the same as the Save Block above.  
+
+<u>Download Chart File (As .dat)</u>: This button will take all given notes saved so far and export them to a .dat file that can then, with minimal adjustment, be imported into the game.  
 
 ## What Can This Tool Do
 This tool can take a beat
