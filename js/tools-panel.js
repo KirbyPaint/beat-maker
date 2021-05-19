@@ -97,12 +97,6 @@ $(document).ready(function () {
   });
 
   $("button#save-block").click(function () {
-    const noteData = $("note-data-output").val();
-    const difficultyFileName = $("#_difficultyBeatmapSets :selected").text();
-    downloadInfo(`${difficultyFileName}Standard.txt`, noteData);
-  });
-
-  $("button#save-beat-as-notes").click(function () {
     document.querySelectorAll('*').forEach(function (node) {
       if (node.classList.contains("blue-style") || node.classList.contains("bomb-style") || node.classList.contains("red-style")) {
         beat = $("#debug-note-beat").text();
@@ -110,7 +104,7 @@ $(document).ready(function () {
         angle = $("#debug-note-angle").text();
         row = $("#debug-note-row").text();
         col = $("#debug-note-col").text();
-        // console.log(`{"_time": ${beat}, "_lineIndex": ${col}, "_lineLayer": ${row}, "_type": ${color}, "_cutDirection": ${angle}}<br>`);
+
         if (beat && color && angle && row && col) {
           $("#note-data-output").append(`{"_time": ${beat}, "_lineIndex": ${col}, "_lineLayer": ${row}, "_type": ${color}, "_cutDirection": ${angle}}<br>`);
         }
