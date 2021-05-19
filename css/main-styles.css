@@ -34,10 +34,10 @@ h1 {
 }
 
 .header-image-container {
-  /* float: left; */
   position: absolute;
   top: 0px;
-  left: 90px;
+  left: 50%;
+  margin-left: -450px;
 }
 
 .header-image-container img {
