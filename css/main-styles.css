@@ -1,3 +1,7 @@
+* {
+  cursor: url("../img/pointerResize.png") 18 18, auto;
+}
+
 body {
   background: linear-gradient(90deg, red, maroon, black, darkblue, blue);
   background-size: 400% 100%;
@@ -21,10 +25,6 @@ body {
 h1 {
   font-family: 'Teko', sans-serif;
 }
-
-/* select {
-  font-family: 'Teko', sans-serif;
-} */
 
 /* Hide the info.dat text, user will be downloading this */
 /* Disable hiding for test purposes */
