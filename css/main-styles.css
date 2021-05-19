@@ -24,7 +24,8 @@ h1 {
 
 /* Hide the info.dat text, user will be downloading this */
 /* Disable hiding for test purposes */
-#info-data-output {
+#info-data-output,
+#note-data-output {
   display: none;
 }
 

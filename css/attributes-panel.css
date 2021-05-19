@@ -1,28 +1,35 @@
 .attributes-panel {
+  border-style: 10px;
+  color: white;
   font-family: 'Teko', sans-serif;
   font-size: 24px;
-  border-style: 10px;
   text-align: right;
-  color: white;
   text-shadow: 1px 1px 10px aliceblue;
 }
 
-.resizedTextbox {
-  width: 200px;
-  height: 20px;
-  /* padding: 1px; */
-  margin-left: 10px;
+.customTextBox {
+  background-color: transparent;
+  border: none;
+  color: white;
   font-family: 'Teko', sans-serif;
   font-size: 18px;
+  height: 20px;
+  margin-left: 10px;
+  outline: none;
+  text-shadow: 1px 1px 10px aliceblue;
+  width: 200px;
 }
 
-.resizedDropdownBox {
-  width: 206px;
-  height: 26px;
-  /* padding: 1px; */
-  margin-left: 7px;
+.resizedDropdownBox,
+.resizedDropdownBox:focus {
+  background-color: transparent;
+  border: none;
+  color: white;
   font-family: 'Teko', sans-serif;
   font-size: 18px;
+  height: 26px;
+  margin-left: 7px;
+  width: 206px;
 }
 
 /* Tooltip container */
@@ -44,11 +51,11 @@
   padding: 10px 10px;
   border-radius: 6px;
 
-  /* Position the tooltip text - see examples below! */
+  /* Position the tooltip text */
   position: absolute;
   z-index: 1;
   top: -15px;
-  right: 105%;
+  right: 125%;
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
