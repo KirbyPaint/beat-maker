@@ -22,6 +22,10 @@ h1 {
   font-family: 'Teko', sans-serif;
 }
 
+/* select {
+  font-family: 'Teko', sans-serif;
+} */
+
 /* Hide the info.dat text, user will be downloading this */
 /* Disable hiding for test purposes */
 #info-data-output,

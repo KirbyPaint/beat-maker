@@ -20,6 +20,10 @@
   width: 200px;
 }
 
+.testSelectFormatting {
+  font-family: 'Teko', sans-serif;
+}
+
 .resizedDropdownBox,
 .resizedDropdownBox:focus {
   background-color: transparent;
