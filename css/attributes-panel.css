@@ -5,6 +5,15 @@
   text-align: right;
 }
 
+.resizedTextbox {
+  width: 200px;
+  height: 20px;
+  /* padding: 1px; */
+  margin-left: 10px;
+  font-family: 'Teko', sans-serif;
+  font-size: 18px;
+}
+
 /* Tooltip container */
 .tooltip {
   position: relative;

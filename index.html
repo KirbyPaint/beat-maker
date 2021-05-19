@@ -146,8 +146,8 @@
 
     <!-- Attributes Panel -->
     <div class="attributes-panel component">
-      _version:<input type="text" id="_version" name="_version" value="2.0.0" readonly><br>
-      _songName:<input type="text" id="_songName" name="_songName"><br>
+      _version:<input type="text" id="_version" name="_version" value="2.0.0" class="resizedTextbox" readonly><br>
+      _songName:<input type="text" id="_songName" name="_songName" class="resizedTextbox"><br>
 
       <span class="tooltip">_songSubName:
         <span class="tooltiptext">
@@ -156,11 +156,11 @@
           etc.)
         </span>
       </span>
-      <input type="text" id="_songSubName" name="_songSubName">
+      <input type="text" id="_songSubName" name="_songSubName" class="resizedTextbox">
       <br>
-      _songAuthorName:<input type="text" id="_songAuthorName" name="_songAuthorName"><br>
-      _levelAuthorName:<input type="text" id="_levelAuthorName" name="_levelAuthorName"><br>
-      _beatsPerMinute:<input type="text" id="_beatsPerMinute" name="_beatsPerMinute"><br>
+      _songAuthorName:<input type="text" id="_songAuthorName" name="_songAuthorName" class="resizedTextbox"><br>
+      _levelAuthorName:<input type="text" id="_levelAuthorName" name="_levelAuthorName" class="resizedTextbox"><br>
+      _beatsPerMinute:<input type="text" id="_beatsPerMinute" name="_beatsPerMinute" class="resizedTextbox"><br>
 
       <span class="tooltip">_shuffle:
         <span class="tooltiptext">
@@ -175,7 +175,7 @@
           The total amount they will be offset by is described in _shufflePeriod, since they both work together to
           produce that value.</span>
       </span>
-      <input type="text" id="_shuffle" name="_shuffle">
+      <input type="text" id="_shuffle" name="_shuffle" class="resizedTextbox">
       <br>
 
       <span class="tooltip">_shufflePeriod:
@@ -196,14 +196,15 @@
           is 0.2, and _shufflePeriod is 0.25
         </span>
       </span>
-      <input type="text" id="_shufflePeriod" name="_shufflePeriod">
+      <input type="text" id="_shufflePeriod" name="_shufflePeriod" class="resizedTextbox">
       <br>
-      _previewStartTime:<input type="text" id="_previewStartTime" name="_previewStartTime"><br>
-      _previewDuration:<input type="text" id="_previewDuration" name="_previewDuration"><br>
-      _songFilename:<input type="text" id="_songFilename" name="_songFilename"><br>
-      _coverImageFilename:<input type="text" id="_coverImageFilename" name="_coverImageFilename"><br>
+      _previewStartTime:<input type="text" id="_previewStartTime" name="_previewStartTime" class="resizedTextbox"><br>
+      _previewDuration:<input type="text" id="_previewDuration" name="_previewDuration" class="resizedTextbox"><br>
+      _songFilename:<input type="text" id="_songFilename" name="_songFilename" class="resizedTextbox"><br>
+      _coverImageFilename:<input type="text" id="_coverImageFilename" name="_coverImageFilename"
+        class="resizedTextbox"><br>
       _environmentName:
-      <select id="_environmentName" name="_environmentName">
+      <select id="_environmentName" name="_environmentName" class="resizedTextbox">
         <option value="DefaultEnvironment">DefaultEnvironment</option>
         <option value="OriginsEnvironment">OriginsEnvironment</option>
         <option value="TriangleEnvironment">TriangleEnvironment</option>
@@ -229,7 +230,7 @@
         <span class="tooltiptext">This is a required field, even if the level does not include any 360 or 90 Degree
           difficulties.</span>
       </span>
-      <select id="_allDirectionsEnvironmentName" name="_allDirectionsEnvironmentName">
+      <select id="_allDirectionsEnvironmentName" name="_allDirectionsEnvironmentName" class="resizedTextbox">
         <option value="GlassDesertEnvironment">GlassDesertEnvironment</option>
       </select>
       <br>
@@ -241,10 +242,10 @@
           <em>Hit sounds are also affected by the same offset.</em>
         </span>
       </span>
-      <input type="text" id="_songTimeOffset" name="_songTimeOffset">
+      <input type="text" id="_songTimeOffset" name="_songTimeOffset" class="resizedTextbox">
       <br>
       _difficultyBeatmapSets:
-      <select id="_difficultyBeatmapSets" name="_difficultyBeatmapSets">
+      <select id="_difficultyBeatmapSets" name="_difficultyBeatmapSets" class="resizedTextbox">
         <option value="1">Easy</option>
         <option value="3">Normal</option>
         <option value="5">Hard</option>
@@ -252,11 +253,11 @@
         <option value="9">ExpertPlus</option>
       </select>
       <br>
-
-      _noteJumpMovementSpeed:<input type="text" id="_noteJumpMovementSpeed" name="_noteJumpMovementSpeed">
+      _noteJumpMovementSpeed:<input type="text" id="_noteJumpMovementSpeed" name="_noteJumpMovementSpeed"
+        class="resizedTextbox">
       <br>
-
-      _noteJumpStartBeatOffset:<input type="text" id="_noteJumpStartBeatOffset" name="_noteJumpStartBeatOffset">
+      _noteJumpStartBeatOffset:<input type="text" id="_noteJumpStartBeatOffset" name="_noteJumpStartBeatOffset"
+        class="resizedTextbox">
       <br>
     </div>
   </div>
