@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="css/export-buttons.css">
   <link rel="stylesheet" href="css/main-styles.css">
   <link rel="stylesheet" href="css/note-grid.css">
+  <link rel="stylesheet" href="css/output-box.css">
   <link rel="stylesheet" href="css/tools-panel.css">
   <link rel="shortcut icon" href="#">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -300,14 +301,16 @@
   </div>
 
   <div class="save-beat-as-notes">
-    <div id="chart-data-output">
-      {
-      "_version": "<span id="_version_data"></span>",
-      "_events": [],
-      "_notes": [
-      <span id="note-data-output"></span>
-      ]
-      }
+    <div class="output-box">
+      <div id="chart-data-output">
+        {
+        "_version": "<span id="_version_data"></span>",
+        "_events": [],
+        "_notes": [
+        <span id="note-data-output"></span>
+        ]
+        }
+      </div>
     </div>
 
     <div id="info-data-output">
@@ -329,10 +332,6 @@
         id="_difficultyBeatmapSetsFileName_data"></span>Standard.dat","_noteJumpMovementSpeed": <span
         id="_noteJumpMovementSpeed_data"></span>,"_noteJumpStartBeatOffset": <span
         id="_noteJumpStartBeatOffset_data"></span>}}]}
-    </div>
-
-    <div>
-      TEST EXPORT BOX
     </div>
   </div>
 </body>

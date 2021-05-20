@@ -1,0 +1,15 @@
+.output-box {
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  color: white;
+  font-family: 'Teko', sans-serif;
+  height: 120px;
+  overflow: auto;
+  padding: 10px;
+  transform: translateX(405px);
+  width: 800px;
+
+  position: fixed;
+  bottom: 20px;
+  right: 50%;
+}
