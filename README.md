@@ -46,7 +46,7 @@ From left to right, top to bottom:
 
 <u>Attributes List</u>: This list determines certain in-game attributes, including the title of the track, author, BPM, etc. <a href="https://bsmg.wiki/mapping/map-format.html#info-dat">See this list for all attributes and required details</a>. Most attributes will allow any input; however note that if the input requires a time, please input a number, or the info.dat file will fail to load in the game. Additionally, some sections are listed as a drop-down only, to prevent an invalid input.    
 
-<u>Export Info.dat To Text</u>: This button takes the data listed in the Attributes panel and prepares it for exporting. A message appears after the export, confirming that the export is complete.  
+<u>Export Info.dat To Text</u>: This button takes the data listed in the Attributes panel and prepares it for exporting.  
 
 <u>Download Info File (As .dat)</u>: This button will bring up a prompt to the user, allowing the info.dat file to be saved locally to the computer.  
 
