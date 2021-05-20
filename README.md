@@ -1,4 +1,5 @@
-# Beat Maker (IN PROGRESS)
+<img src="https://cdn.discordapp.com/attachments/799876599372840964/842841023604719617/bluenote.png" width="75px"><img src="https://cdn.discordapp.com/attachments/799876599372840964/842840330809507870/logo.png"><img src="https://cdn.discordapp.com/attachments/799876599372840964/842447775345410088/rednote.png" width="75px">
+<hr>
 
 ## A Beat Saber song charting tool
 
@@ -6,7 +7,6 @@
 <a href="https://www.linkedin.com/in/ash-porter-kirbypaint/">Find Me on LinkedIn</a> | 
 <a href="mailto:porter.ashley13@gmail.com">Contact Me Directly</a>
 
-<img src="https://cdn.discordapp.com/attachments/799876599372840964/842841023604719617/bluenote.png" width="75px"><img src="https://cdn.discordapp.com/attachments/799876599372840964/842840330809507870/logo.png"><img src="https://cdn.discordapp.com/attachments/799876599372840964/842447775345410088/rednote.png" width="75px">
 <hr>
 
 ## <u>Table of Contents</u>
@@ -113,9 +113,20 @@ Note: these recommendations come from my own personal experiences. There may be 
 
 ## Bugs and Issues
 
+*  Bug - Custom mouse pointer sometimes reverts to standard mouse pointer
+*  Issue - Chart is not editable - mistakes are set in stone unless the chart is downloaded and modified externally.
+*  Issue - Chart does not allow for Bomb blocks or Wall blocks.
+*  Issue - Attributes that require integers are not locked to integer-only inputs
+*  Issue - Save Button and Convert Chart to Notes button have identical code. But it looks so well-balanced right now, I'm keeping it.
+
 <hr>
 
 ## Future Planned Improvements
+
+*  Allow editing of chart
+*  Add Bomb events and Wall events to chart
+*  Allow user to store their custom charts in a database
+*  Allow more precise Beat timing - currently only integers are allowed, leaving the user to either be very precise on the offset, or risk track timing errors
 
 <hr>
 
@@ -124,3 +135,6 @@ Note: these recommendations come from my own personal experiences. There may be 
 *  HTML5
 *  CSS
 *  jQuery 3.5.1
+
+## Final Notes
+Thank you to everyone who was with me on this incredible journey. Can't wait to see what the future has in store.
