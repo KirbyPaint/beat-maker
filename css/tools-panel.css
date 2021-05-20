@@ -1,62 +1,61 @@
 /* Tool select panel */
 #directional-block {
-  width: 120px;
   height: 120px;
+  width: 120px;
 }
 
 .button-block {
-  width: 120px;
-  height: 120px;
   border-radius: 10px;
   font-size: 48px;
+  height: 120px;
+  width: 120px;
 }
 
 #save-block {
-  position: relative;
   display: inline-block;
+  position: relative;
 }
 
 #save-block::before {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  height: 30%;
-  width: 14px;
   background-color: green;
   content: "";
+  height: 30%;
+  left: 0;
+  position: absolute;
+  top: 50%;
   transform: translateX(34px) rotate(-45deg);
   transform-origin: left bottom;
+  width: 14px;
 }
 
 #save-block::after {
-  position: absolute;
-  left: 0;
-  bottom: 15%;
-  height: 14px;
-  width: 80%;
   background-color: green;
+  bottom: 15%;
   content: "";
+  height: 14px;
+  left: 0;
+  position: absolute;
   transform: translateX(40px) rotate(-45deg);
   transform-origin: left bottom;
+  width: 80%;
 }
 
 /* Clear button red x css */
 #clear-block {
-  position: relative;
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  position: relative;
 }
 
 #clear-block::before,
 #clear-block::after {
-  position: absolute;
-  content: '';
-  width: 100%;
-  height: 14px;
-  /* cross thickness */
   background-color: red;
+  content: '';
+  height: 14px;
+  position: absolute;
+  width: 100%;
 }
 
 #clear-block::before {
@@ -82,15 +81,16 @@
     0 0 5px 2px red,
     0 0 10px 5px magenta,
     0 0 12px 12px maroon;
+  transition: 0.1s;
 }
 
 .red-style:hover,
 .red-tool:hover {
-  transition: 0.1s;
   box-shadow:
     0 0 5px 5px red,
     0 0 10px 8px magenta,
     0 0 12px 15px maroon;
+  transition: 0.1s;
 }
 
 #blue-block {
@@ -109,11 +109,11 @@
 
 .blue-style:hover,
 .blue-tool:hover {
-  transition: 0.1s;
   box-shadow:
     0 0 5px 5px blue,
     0 0 10px 8px lightskyblue,
     0 0 12px 15px darkblue;
+  transition: 0.1s;
 }
 
 #save-clear-style,
@@ -125,11 +125,11 @@
 
 .triangle {
   background-image: url("../img/triangle.png");
-  width: 100px;
-  height: 50px;
   background-position: top;
   background-repeat: no-repeat;
+  height: 50px;
   transform: translateY(-20px);
+  width: 100px;
 }
 
 #bomb-block,
@@ -146,7 +146,6 @@
   background: pink;
 }
 
-/* Highlight coloring */
 .select-style {
   box-shadow: 0px 0px 10px 10px #33ff00;
 }

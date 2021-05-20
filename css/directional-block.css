@@ -9,12 +9,12 @@
 #dir-6,
 #dir-7,
 #dir-8 {
-  background-color: lightgoldenrodyellow;
-  display: flex;
-  justify-content: center;
   align-items: center;
+  background-color: lightgoldenrodyellow;
   box-shadow:
     0 0 10px 1px lightgoldenrodyellow;
+  display: flex;
+  justify-content: center;
 }
 
 #dir-4 {

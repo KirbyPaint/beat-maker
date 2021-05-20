@@ -1,11 +1,7 @@
-* {
-  cursor: url("../img/pointerResize.png") 18 18, auto;
-}
-
 body {
-  background: linear-gradient(90deg, red, maroon, black, darkblue, blue);
+  animation: gradient 90s ease infinite;
+  background: linear-gradient(90deg, black, maroon, red, maroon, black, darkblue, blue, darkblue, black);
   background-size: 400% 100%;
-  animation: gradient 60s ease infinite;
 }
 
 @keyframes gradient {
@@ -26,19 +22,16 @@ h1 {
   font-family: 'Teko', sans-serif;
 }
 
-/* Hide the info.dat text, user will be downloading this */
-/* Disable hiding for test purposes */
 #info-data-output,
-/* #note-data-output, */
 .debug-console {
   display: none;
 }
 
 .header-image-container {
-  position: absolute;
-  top: 0px;
   left: 50%;
   margin-left: -450px;
+  position: absolute;
+  top: 0px;
 }
 
 .header-image-container img {
@@ -46,33 +39,33 @@ h1 {
 }
 
 .site-grid-container {
-  display: grid;
-  grid-template-rows: 1;
-  grid-template-columns: 35% 10% 20% auto;
-  justify-content: center;
   align-items: center;
+  display: grid;
+  grid-template-columns: 35% 10% 20% auto;
+  grid-template-rows: 1;
+  justify-content: center;
 }
 
 .note-grid-container {
-  display: grid;
-  grid-template-rows: 140px 140px 140px;
-  grid-template-columns: 140px 140px 140px 140px;
-  justify-content: center;
   align-items: center;
+  display: grid;
+  grid-template-columns: 140px 140px 140px 140px;
+  grid-template-rows: 140px 140px 140px;
+  justify-content: center;
 }
 
 .tools-grid-container {
-  display: grid;
-  grid-template-rows: 140px 140px 140px;
-  grid-template-columns: 140px 140px;
-  justify-content: center;
   align-items: center;
+  display: grid;
+  grid-template-columns: 140px 140px;
+  grid-template-rows: 140px 140px 140px;
+  justify-content: center;
 }
 
 .directional-grid-container {
   display: grid;
-  grid-template-rows: 40px 40px 40px;
   grid-template-columns: 40px 40px 40px;
+  grid-template-rows: 40px 40px 40px;
 }
 
 .current-beat-container {
@@ -87,9 +80,8 @@ h1 {
 
 #data-management-buttons {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
   font-family: 'Teko', sans-serif;
-
+  grid-template-columns: 25% 25% 25% 25%;
   position: relative;
   top: 80px;
 }
@@ -99,17 +91,6 @@ h1 {
   font-size: 36px;
 }
 
-/* Default example note block */
-.note-block {
-  width: 100px;
-  height: 100px;
-  background: red;
-}
-
-/* Add easy black outline to any component */
-.component {
-  border: 2px solid black;
-  background-color: white;
-  margin: 10px;
-  padding: 10px;
+* {
+  cursor: url("../img/pointerResize.png") 18 18, auto;
 }
