@@ -1,6 +1,8 @@
 .output-box {
-  border: 1px solid #ccc;
+  background-color: rgba(0, 0, 0, 0.3);
+  /* border: 1px solid #ccc; */
   border-radius: 15px;
+  box-shadow: 0px 0px 10px aliceblue;
   color: white;
   font-family: 'Teko', sans-serif;
   height: 120px;
