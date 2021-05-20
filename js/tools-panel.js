@@ -38,6 +38,64 @@ function reverseDigitSwitch(digit) {
   return digit;
 }
 
+function idGetRow(id) {
+  const coords = id.split("-");
+  const row = coords[0];
+  // const col = coords[1];
+  return row;
+}
+
+function idGetCol(id) {
+  const coords = id.split("-");
+  // const row = coords[0];
+  const col = coords[1];
+  return col;
+}
+
+function getColor(node) {
+  if (node.classList.contains("blue-style")) {
+    return 1;
+  }
+  else if (node.classList.contains("red-style")) {
+    return 0;
+  }
+}
+
+function getAngle(direction) {
+  switch (direction) {
+    case "🡔":
+      direction = 4;
+      break;
+    case "↑":
+      direction = 0;
+      break;
+    case "🡕":
+      direction = 5;
+      break;
+    case "←":
+      direction = 2;
+      break;
+    case "•":
+      direction = 8;
+      break;
+    case "→":
+      direction = 3;
+      break;
+    case "🡗":
+      direction = 6;
+      break;
+    case "↓":
+      direction = 1;
+      break;
+    case "🡖":
+      direction = 7;
+      break;
+    default:
+      break;
+  }
+  return direction;
+}
+
 $(document).ready(function () {
   $("#note-beat").click(function () {
     $("#debug-note-beat").text($("#note-beat").val());
@@ -100,16 +158,14 @@ $(document).ready(function () {
     document.querySelectorAll('*').forEach(function (node) {
       if (node.classList.contains("blue-style") || node.classList.contains("red-style")) {
         beat = $("#debug-note-beat").text();
-        color = $("#debug-note-color").text();
-        angle = $("#debug-note-angle").text();
-        row = $("#debug-note-row").text();
-        col = $("#debug-note-col").text();
 
-        console.log(`{"_time": ${beat}, "_lineIndex": ${col}, "_lineLayer": ${row}, "_type": ${color}, "_cutDirection": ${angle}}<br>`);
+        let thisRow = reverseDigitSwitch(idGetRow(node.id));
+        let thisCol = reverseDigitSwitch(idGetCol(node.id));
+        let thisText = document.getElementById(node.id).textContent;
+        let thisColor = getColor(node);
+        let thisAngle = getAngle(thisText);
 
-        if (beat && color && angle && row && col) {
-          $("#note-data-output").append(`{"_time": ${beat}, "_lineIndex": ${col}, "_lineLayer": ${row}, "_type": ${color}, "_cutDirection": ${angle}}<br>`);
-        }
+        $("#note-data-output").append(`{"_time": ${beat}, "_lineIndex": ${thisCol}, "_lineLayer": ${thisRow}, "_type": ${thisColor}, "_cutDirection": ${thisAngle}}<br>`);
       }
     });
   });
