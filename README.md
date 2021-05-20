@@ -113,6 +113,10 @@ Note: these recommendations come from my own personal experiences. There may be 
 
 <hr>
 
+## Future Planned Improvements
+
+<hr>
+
 ## Technologies Used
 
 *  HTML5
