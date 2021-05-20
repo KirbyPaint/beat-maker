@@ -1,25 +1,37 @@
+.beat-down,
+.beat-up {
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  height: 50px;
+  margin-right: 10px;
+  width: 50px;
+  transition: 0.1s;
+}
+
 .beat-down {
   background-color: red;
   background-image: url("../img/triangleleft.png");
   background-position: right;
-  background-repeat: no-repeat;
-  border-radius: 10px;
   box-shadow: 0 0 10px red;
-  height: 50px;
-  margin-right: 10px;
-  width: 50px;
+}
+
+.beat-down:hover {
+  box-shadow: 0 0 15px red,
+    inset 0 0 15px maroon;
+  transition: 0.1s;
 }
 
 .beat-up {
   background-color: blue;
   background-image: url("../img/triangleright.png");
   background-position: left;
-  background-repeat: no-repeat;
-  border-radius: 10px;
   box-shadow: 0 0 10px blue;
-  height: 50px;
-  margin-left: 10px;
-  width: 50px;
+}
+
+.beat-up:hover {
+  box-shadow: 0 0 15px blue,
+    inset 0 0 15px darkblue;
+  transition: 0.1s;
 }
 
 .custom-font {
@@ -31,6 +43,7 @@
 .font-72 {
   font-size: 72px;
   margin: -30px 0;
+  margin-left: -10px;
   padding-top: 30px;
 }
 

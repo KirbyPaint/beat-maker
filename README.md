@@ -11,7 +11,7 @@
 
 ## <u>Table of Contents</u>
 * <a href="#what-is-beat-maker">What is Beat Maker</a>
-* <a href="#how-to-use-the-program">How To Use The Program</a>
+* <a href="#how-to-use-beat-maker">How To Use Beat Maker</a>
 * <a href="#what-can-this-tool-do">What Can This Tool Do</a>
 * <a href="#what-requires-outside-tools">What Requires Outside Tools</a>
 * <a href="#how-do-i-make-a-good-beat-saber-chart">How Do I Make A Good Beat Saber Chart</a>
@@ -29,6 +29,7 @@ Beat Maker is a browser application in development. The goal of this project is 
 <hr>
 
 ## How To Use Beat Maker
+<img src="https://media.discordapp.net/attachments/799876599372840964/844827752140898304/unknown.png?width=1343&height=676" width="100%">  
 The Beat Maker screen has a few different and notable sections to it.  
 From left to right, top to bottom:  
 

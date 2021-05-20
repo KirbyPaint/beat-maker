@@ -1,28 +1,58 @@
 /* offset-x | offset-y | blur-radius | spread-radius | color */
 #prepare-info-dat,
-#save-beat-as-notes {
-  background-color: #fff;
+#save-beat-as-notes,
+#download-note-data,
+#download-chart-data {
+  background-color: rgba(0, 0, 0, 0.3);
   border-radius: 10px;
-  box-shadow:
-    inset 0 0 40px 20px #fff,
-    0 0 15px 10px red,
-    0 0 20px 10px magenta,
-    0 0 40px 40px maroon;
+  color: white;
   height: auto;
   margin: 0 25px;
+  text-shadow: 1px 1px 10px aliceblue;
+  transition: 0.3s;
   width: auto;
+}
+
+#prepare-info-dat,
+#save-beat-as-notes {
+  border-color: red;
+  box-shadow:
+    /* inset 0 0 8px 1px white, */
+    0 0 15px 5px red,
+    0 0 10px 5px magenta,
+    0 0 20px 10px maroon;
+  transition: 0.3s;
 }
 
 #download-note-data,
 #download-chart-data {
-  background-color: #fff;
-  border-radius: 10px;
+  border-color: blue;
   box-shadow:
-    inset 0 0 40px 20px #fff,
-    0 0 15px 10px blue,
-    0 0 20px 10px lightskyblue,
-    0 0 40px 40px darkblue;
-  height: auto;
-  margin: 0 25px;
-  width: auto;
+    /* inset 0 0 8px 1px white, */
+    0 0 15px 5px blue,
+    0 0 10px 5px lightskyblue,
+    0 0 20px 10px darkblue;
+  transition: 0.3s;
+}
+
+#prepare-info-dat:hover,
+#save-beat-as-notes:hover {
+  border-color: red;
+  box-shadow:
+    inset 0 0 8px 1px white,
+    0 0 15px 5px red,
+    0 0 10px 5px magenta,
+    0 0 20px 10px maroon;
+  transition: 0.3s;
+}
+
+#download-note-data:hover,
+#download-chart-data:hover {
+  border-color: blue;
+  box-shadow:
+    inset 0 0 8px 1px white,
+    0 0 15px 5px blue,
+    0 0 10px 5px lightskyblue,
+    0 0 20px 10px darkblue;
+  transition: 0.3s;
 }

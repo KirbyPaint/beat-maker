@@ -28,8 +28,8 @@ h1 {
 }
 
 .header-image-container {
-  left: 50%;
-  margin-left: -450px;
+  /* left: 50%; */
+  margin-left: 120px;
   position: absolute;
   top: 0px;
 }
@@ -76,6 +76,7 @@ h1 {
 .save-beat-as-notes {
   display: grid;
   grid-template-columns: 50% auto;
+  transition: 0.3s;
 }
 
 #data-management-buttons {
@@ -84,11 +85,13 @@ h1 {
   grid-template-columns: 25% 25% 25% 25%;
   position: relative;
   top: 80px;
+  transition: 0.3s;
 }
 
 #data-management-buttons button {
   font-family: 'Teko', sans-serif;
   font-size: 36px;
+  transition: 0.3s;
 }
 
 * {

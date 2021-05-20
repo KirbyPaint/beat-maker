@@ -1,4 +1,3 @@
-/* Tool select panel */
 #directional-block {
   height: 120px;
   width: 120px;
@@ -11,63 +10,18 @@
   width: 120px;
 }
 
-#save-block {
-  display: inline-block;
-  position: relative;
-}
-
-#save-block::before {
-  background-color: green;
-  content: "";
-  height: 30%;
-  left: 0;
-  position: absolute;
-  top: 50%;
-  transform: translateX(34px) rotate(-45deg);
-  transform-origin: left bottom;
-  width: 14px;
-}
-
-#save-block::after {
-  background-color: green;
-  bottom: 15%;
-  content: "";
-  height: 14px;
-  left: 0;
-  position: absolute;
-  transform: translateX(40px) rotate(-45deg);
-  transform-origin: left bottom;
-  width: 80%;
-}
-
-/* Clear button red x css */
-#clear-block {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-}
-
-#clear-block::before,
-#clear-block::after {
-  background-color: red;
-  content: '';
-  height: 14px;
-  position: absolute;
-  width: 100%;
-}
-
-#clear-block::before {
-  transform: rotate(45deg);
-}
-
-#clear-block::after {
-  transform: rotate(-45deg);
-}
-
 .black-style {
   background: black;
+}
+
+#bomb-block,
+.bomb-style {
+  background-color: gray;
+}
+
+.bomb-style {
+  box-shadow:
+    0 0 10px 5px lightgray;
 }
 
 #red-block {
@@ -116,11 +70,73 @@
   transition: 0.1s;
 }
 
+#save-block {
+  display: inline-block;
+  position: relative;
+}
+
+#save-block::before {
+  background-color: green;
+  content: "";
+  height: 30%;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateX(34px) rotate(-45deg);
+  transform-origin: left bottom;
+  width: 14px;
+}
+
+#save-block::after {
+  background-color: green;
+  bottom: 15%;
+  content: "";
+  height: 14px;
+  left: 0;
+  position: absolute;
+  transform: translateX(40px) rotate(-45deg);
+  transform-origin: left bottom;
+  width: 80%;
+}
+
+#clear-block {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+#clear-block::before,
+#clear-block::after {
+  background-color: red;
+  content: '';
+  height: 14px;
+  position: absolute;
+  width: 100%;
+}
+
+#clear-block::before {
+  transform: rotate(45deg);
+}
+
+#clear-block::after {
+  transform: rotate(-45deg);
+}
+
 #save-clear-style,
 .save-clear-style {
   background-color: lightgray;
   box-shadow:
     0 0 10px 5px lightgray;
+  transition: 0.1s;
+}
+
+#save-clear-style:hover,
+.save-clear-style:hover {
+  box-shadow:
+    0 0 15px 7px white;
+  transition: 0.1s;
 }
 
 .triangle {
@@ -130,20 +146,6 @@
   height: 50px;
   transform: translateY(-20px);
   width: 100px;
-}
-
-#bomb-block,
-.bomb-style {
-  background-color: gray;
-}
-
-.bomb-style {
-  box-shadow:
-    0 0 10px 5px lightgray;
-}
-
-#wall-block {
-  background: pink;
 }
 
 .select-style {
