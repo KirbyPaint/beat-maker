@@ -41,13 +41,11 @@ function reverseDigitSwitch(digit) {
 function idGetRow(id) {
   const coords = id.split("-");
   const row = coords[0];
-  // const col = coords[1];
   return row;
 }
 
 function idGetCol(id) {
   const coords = id.split("-");
-  // const row = coords[0];
   const col = coords[1];
   return col;
 }
@@ -101,7 +99,6 @@ $(document).ready(function () {
     $("#debug-note-beat").text($("#note-beat").val());
   });
 
-  // Note colors
   $("button#red-block").click(function () {
     document.getElementById("debug-note-color").innerHTML = 0;
 

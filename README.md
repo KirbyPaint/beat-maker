@@ -15,9 +15,18 @@
 * <a href="#what-can-this-tool-do">What Can This Tool Do</a>
 * <a href="#what-requires-outside-tools">What Requires Outside Tools</a>
 * <a href="#how-do-i-make-a-good-beat-saber-chart">How Do I Make A Good Beat Saber Chart</a>
+* <a href="#how-can-i-add-this-chart-data-to-my-beat-saber-game">How Can I Add This Chart Data To MY Beat Saber Game</a>
+* <a href="#author-recommended-editing-tools">Author Recommended Editing Tools</a>
+* <a href="#resources">Resources</a>
+* <a href="#bugs-and-issues">Bugs and Issues</a>
+* <a href="#technologies-used">Technologies Used</a>
+
+<hr>
 
 ## What is Beat Maker
-Beat Maker is a browser application in development. The goal of this project is for a user to be able to create their own Beat Saber song charts using minimal outside resources
+Beat Maker is a browser application in development. The goal of this project is for a user to be able to create their own Beat Saber song charts using minimal outside resources.
+
+<hr>
 
 ## How To Use Beat Maker
 The Beat Maker screen has a few different and notable sections to it.  
@@ -45,17 +54,25 @@ From left to right, top to bottom:
 
 <u>Download Chart File (As .dat)</u>: This button will take all given notes saved so far and export them to a .dat file that can then, with minimal adjustment, be imported into the game.  
 
+<hr>
+
 ## What Can This Tool Do
-This tool can convert a given beat with red and blue notes into a playable chart. It can also take the supplied attributes and create the required info.dat file containing the supplied attributes.
+This tool can convert a given beat with red and blue notes into a basic playable chart file. It can also take the supplied attributes and create the required info.dat file containing the supplied attributes.
+
+<hr>
 
 ## What Requires Outside Tools
-This tool will not be able to edit audio files, create custom cover art, or package the final product. It is simply a chart creation tool.  
+This tool will not be able to edit audio files, create custom cover art, add events such as lighting, bombs, or walls, or package the final product. It is simply a chart creation tool.  
+
+<hr>
 
 ## How Do I Make A Good Beat Saber Chart
 Practice, practice, practice! Beat Saber charting, while simplistic, does have a bit of a learning curve, especially since creating the chart in a 2D medium doesn't always translate perfectly to a VR game. You may think that your chart map looks great, only to find that playing it is a nightmare. These charts require lots of minute tweaking and playtesting, and often it's best to have a buddy playtest the chart for you, to get past your own chart blindness.  
 The <a href="https://bsmg.wiki/mapping/#mapping-quick-start">BSMG Wiki</a> has lots of helpful tools to get you started.
 
-## How Can I Add This Chart Data To MY Beat Saber Game?
+<hr>
+
+## How Can I Add This Chart Data To MY Beat Saber Game
 There are plenty of resources out there to assist with packaging the final product. In short, a Beat Saber track MUST have:  
 *  info.dat
 *  song.ogg OR song.egg
@@ -65,13 +82,15 @@ There are plenty of resources out there to assist with packaging the final produ
 These are the MINIMUM required files.  
 Additionally, as of this writing, adding custom charts is not natively supported. You will need to mod your game, and as modding does come with certain inherent risks, I will not endorse a specific mod over another. However, a simple internet search will present a few good options.  
 
-
+<hr>
 
 ## Author Recommended Editing Tools
 *  <a href="https://www.getpaint.net/">paint.NET</a> for cover art editing and saving
 *  <a href="https://www.audacityteam.org/">Audacity</a> for audio file editing
 *  <a href="https://notepad-plus-plus.org/downloads/">Notepad++</a> if there are any last-minute finishing touches needed for the file data  
 Note: these recommendations come from my own personal experiences. There may be much better tools out there to get the specific jobs done; however these three were my personal favorites when I manually created charts in the past.
+
+<hr>
 
 ## Resources
 *  <a href="https://bsmg.wiki/mapping/map-format.html#base-object">Note Charting</a>
@@ -90,13 +109,12 @@ Note: these recommendations come from my own personal experiences. There may be 
 
 <hr>
 
+## Bugs and Issues
+
+<hr>
+
 ## Technologies Used
 
 *  HTML5
 *  CSS
 *  jQuery 3.5.1
-*  
-*  
-*  
-*  
-*  
