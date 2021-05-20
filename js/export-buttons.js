@@ -1,3 +1,16 @@
+function downloadInfo(filename, text) {
+  var element = document.createElement('a');
+  element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+  element.setAttribute('download', filename);
+
+  element.style.display = 'none';
+  document.body.appendChild(element);
+
+  element.click();
+
+  document.body.removeChild(element);
+}
+
 $(document).ready(function () {
   // info.dat 
   $("button#prepare-info-dat").click(function () {
@@ -23,6 +36,17 @@ $(document).ready(function () {
     $("#_noteJumpStartBeatOffset_data").text($("#_noteJumpStartBeatOffset").val());
 
     alert("Info.dat ready for download");
-    $("#download-note-data").show();
+  });
+
+  $("button#download-note-data").click(function () {
+    const infoData = document.getElementById("info-data-output").innerText;
+    downloadInfo("info.dat", infoData);
+  });
+
+  $("button#download-chart-data").click(function () {
+    // const noteData = document.getElementById("note-data-output").innerText;
+    const noteData = document.getElementById("chart-data-output").innerText;
+    const difficultyFileName = $("#_difficultyBeatmapSets :selected").text();
+    downloadInfo(`${difficultyFileName}Standard.dat`, noteData);
   });
 });

@@ -75,7 +75,8 @@
   background: red;
 }
 
-.red-style {
+.red-style,
+.red-tool {
   background: red;
   box-shadow:
     0 0 5px 2px red,
@@ -83,7 +84,8 @@
     0 0 12px 12px maroon;
 }
 
-.red-style:hover {
+.red-style:hover,
+.red-tool:hover {
   transition: 0.1s;
   box-shadow:
     0 0 5px 5px red,
@@ -95,7 +97,8 @@
   background-color: blue;
 }
 
-.blue-style {
+.blue-style,
+.blue-tool {
   background: blue;
   box-shadow:
     0 0 5px 2px blue,
@@ -104,7 +107,8 @@
   transition: 0.1s;
 }
 
-.blue-style:hover {
+.blue-style:hover,
+.blue-tool:hover {
   transition: 0.1s;
   box-shadow:
     0 0 5px 5px blue,

@@ -17,11 +17,9 @@
   <link rel="stylesheet" href="css/tools-panel.css">
   <link rel="shortcut icon" href="#">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="js/attributes-panel.js"></script>
   <script src="js/beat-control.js"></script>
-  <script src="js/download-files.js"></script>
   <script src="js/directional-block.js"></script>
-  <script src="js/export-notes.js"></script>
+  <script src="js/export-buttons.js"></script>
   <script src="js/note-grid.js"></script>
   <script src="js/tools-panel.js"></script>
   <title>Beat Maker</title>
@@ -125,11 +123,11 @@
         <!-- <img src="img/bomb.png"> -->
       </button>
       <!-- red BLock -->
-      <button id="red-block" type="button" class="button-block red-style">
+      <button id="red-block" type="button" class="button-block red-tool">
         <div class="triangle"></div>
       </button>
       <!-- Blue BLock -->
-      <button id="blue-block" type="button" class="button-block blue-style">
+      <button id="blue-block" type="button" class="button-block blue-tool">
         <div class="triangle"></div>
       </button>
       <!-- Save Chart -->
@@ -302,8 +300,16 @@
   </div>
 
   <div class="save-beat-as-notes">
-    <div id="note-data-output">
+    <div id="chart-data-output">
+      {
+      "_version": "<span id="_version_data"></span>",
+      "_events": [],
+      "_notes": [
+      <span id="note-data-output"></span>
+      ]
+      }
     </div>
+
     <div id="info-data-output">
       {"_version": <span id="_version_data"></span>,"_songName": "<span id="_songName_data"></span>","_songSubName":
       "<span id="_songSubName_data"></span>","_songAuthorName": "<span
@@ -323,6 +329,10 @@
         id="_difficultyBeatmapSetsFileName_data"></span>Standard.dat","_noteJumpMovementSpeed": <span
         id="_noteJumpMovementSpeed_data"></span>,"_noteJumpStartBeatOffset": <span
         id="_noteJumpStartBeatOffset_data"></span>}}]}
+    </div>
+
+    <div>
+      TEST EXPORT BOX
     </div>
   </div>
 </body>

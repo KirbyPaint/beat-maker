@@ -46,7 +46,7 @@ From left to right, top to bottom:
 <u>Download Chart File (As .dat)</u>: This button will take all given notes saved so far and export them to a .dat file that can then, with minimal adjustment, be imported into the game.  
 
 ## What Can This Tool Do
-This tool can take a beat
+This tool can convert a given beat with red and blue notes into a playable chart. It can also take the supplied attributes and create the required info.dat file containing the supplied attributes.
 
 ## What Requires Outside Tools
 This tool will not be able to edit audio files, create custom cover art, or package the final product. It is simply a chart creation tool.  
@@ -63,7 +63,9 @@ There are plenty of resources out there to assist with packaging the final produ
 *  Chart data, as listed in the info.dat file
 
 These are the MINIMUM required files.  
-Additionally, as of this writing, adding custom charts is not natively supported. You will need to mod your game, and as modding does come with certain inherent risks, I will not endorse a specific mod over another. However, a simple internet search will present a few good options.
+Additionally, as of this writing, adding custom charts is not natively supported. You will need to mod your game, and as modding does come with certain inherent risks, I will not endorse a specific mod over another. However, a simple internet search will present a few good options.  
+
+
 
 ## Author Recommended Editing Tools
 *  <a href="https://www.getpaint.net/">paint.NET</a> for cover art editing and saving
