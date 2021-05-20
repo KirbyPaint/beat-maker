@@ -52,7 +52,7 @@ From left to right, top to bottom:
 
 <u>Convert Current Beat Chart To Notes</u>: This button functions the same as the Save Block above.  
 
-<u>Download Chart File (As .dat)</u>: This button will take all given notes saved so far and export them to a .dat file that can then, with minimal adjustment, be imported into the game.  
+<u>Download Chart File (As .dat)</u>: This button will take all given notes saved so far and export them to a .dat file that can then, with minimal adjustment, be imported into the game. Same functionality as the Save Block button.  
 
 <u>Export Data Box</u>: A box that displays the current note chart as its raw data. This is a preview for what will be downloaded using the "Download Chart File (As .dat) button.  
 

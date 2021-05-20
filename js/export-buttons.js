@@ -41,6 +41,22 @@ $(document).ready(function () {
     downloadInfo("info.dat", infoData);
   });
 
+  $("button#save-beat-as-notes").click(function () {
+    document.querySelectorAll('*').forEach(function (node) {
+      if (node.classList.contains("blue-style") || node.classList.contains("red-style")) {
+        beat = $("#debug-note-beat").text();
+
+        let thisRow = reverseDigitSwitch(idGetRow(node.id));
+        let thisCol = reverseDigitSwitch(idGetCol(node.id));
+        let thisText = document.getElementById(node.id).textContent;
+        let thisColor = getColor(node);
+        let thisAngle = getAngle(thisText);
+
+        $("#note-data-output").append(`{"_time": ${beat}, "_lineIndex": ${thisCol}, "_lineLayer": ${thisRow}, "_type": ${thisColor}, "_cutDirection": ${thisAngle}}<br>`);
+      }
+    });
+  });
+
   $("button#download-chart-data").click(function () {
     // const noteData = document.getElementById("note-data-output").innerText;
     const noteData = document.getElementById("chart-data-output").innerText;
