@@ -108,7 +108,7 @@ $(document).ready(function () {
     if (row >= 0 && col >= 0) {
       row = digitSwitch(row);
       col = digitSwitch(col);
-      var element = document.getElementById(`${row}-${col}`);
+      let element = document.getElementById(`${row}-${col}`);
       element.classList.remove("black-style");
       element.classList.remove("blue-style");
       element.classList.remove("bomb-style");
@@ -125,7 +125,7 @@ $(document).ready(function () {
     if (row >= 0 && col >= 0) {
       row = digitSwitch(row);
       col = digitSwitch(col);
-      var element = document.getElementById(`${row}-${col}`);
+      let element = document.getElementById(`${row}-${col}`);
       element.classList.remove("black-style");
       element.classList.remove("bomb-style");
       element.classList.remove("red-style");
@@ -142,7 +142,7 @@ $(document).ready(function () {
     if (row >= 0 && col >= 0) {
       row = digitSwitch(row);
       col = digitSwitch(col);
-      var element = document.getElementById(`${row}-${col}`);
+      let element = document.getElementById(`${row}-${col}`);
       element.innerHTML = "";
       element.classList.remove("black-style");
       element.classList.remove("blue-style");
@@ -174,7 +174,7 @@ $(document).ready(function () {
     if (row >= 0 && col >= 0) {
       row = digitSwitch(row);
       col = digitSwitch(col);
-      var element = document.getElementById(`${row}-${col}`);
+      let element = document.getElementById(`${row}-${col}`);
       element.innerHTML = "";
       element.classList.remove("blue-style");
       element.classList.remove("red-style");

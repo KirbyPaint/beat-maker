@@ -7,7 +7,6 @@ $(document).ready(function () {
     let col = parseInt(document.getElementById("debug-note-col").textContent);
 
     if (row >= 0 && col >= 0) {
-      // Need to reassign the div for the selected element
       row = digitSwitch(row);
       col = digitSwitch(col);
       document.getElementById(`${row}-${col}`).innerHTML = "🡔";
@@ -21,7 +20,6 @@ $(document).ready(function () {
     let col = parseInt(document.getElementById("debug-note-col").textContent);
 
     if (row >= 0 && col >= 0) {
-      // Need to reassign the div for the selected element
       row = digitSwitch(row);
       col = digitSwitch(col);
       document.getElementById(`${row}-${col}`).innerHTML = "↑";
@@ -35,7 +33,6 @@ $(document).ready(function () {
     let col = parseInt(document.getElementById("debug-note-col").textContent);
 
     if (row >= 0 && col >= 0) {
-      // Need to reassign the div for the selected element
       row = digitSwitch(row);
       col = digitSwitch(col);
       document.getElementById(`${row}-${col}`).innerHTML = "🡕";
@@ -49,7 +46,6 @@ $(document).ready(function () {
     let col = parseInt(document.getElementById("debug-note-col").textContent);
 
     if (row >= 0 && col >= 0) {
-      // Need to reassign the div for the selected element
       row = digitSwitch(row);
       col = digitSwitch(col);
       document.getElementById(`${row}-${col}`).innerHTML = "←";
@@ -63,7 +59,6 @@ $(document).ready(function () {
     let col = parseInt(document.getElementById("debug-note-col").textContent);
 
     if (row >= 0 && col >= 0) {
-      // Need to reassign the div for the selected element
       row = digitSwitch(row);
       col = digitSwitch(col);
       document.getElementById(`${row}-${col}`).innerHTML = "•";
@@ -77,7 +72,6 @@ $(document).ready(function () {
     let col = parseInt(document.getElementById("debug-note-col").textContent);
 
     if (row >= 0 && col >= 0) {
-      // Need to reassign the div for the selected element
       row = digitSwitch(row);
       col = digitSwitch(col);
       document.getElementById(`${row}-${col}`).innerHTML = "→";
@@ -91,7 +85,6 @@ $(document).ready(function () {
     let col = parseInt(document.getElementById("debug-note-col").textContent);
 
     if (row >= 0 && col >= 0) {
-      // Need to reassign the div for the selected element
       row = digitSwitch(row);
       col = digitSwitch(col);
       document.getElementById(`${row}-${col}`).innerHTML = "🡗";
@@ -105,7 +98,6 @@ $(document).ready(function () {
     let col = parseInt(document.getElementById("debug-note-col").textContent);
 
     if (row >= 0 && col >= 0) {
-      // Need to reassign the div for the selected element
       row = digitSwitch(row);
       col = digitSwitch(col);
       document.getElementById(`${row}-${col}`).innerHTML = "↓";
@@ -119,7 +111,6 @@ $(document).ready(function () {
     let col = parseInt(document.getElementById("debug-note-col").textContent);
 
     if (row >= 0 && col >= 0) {
-      // Need to reassign the div for the selected element
       row = digitSwitch(row);
       col = digitSwitch(col);
       document.getElementById(`${row}-${col}`).innerHTML = "🡖";

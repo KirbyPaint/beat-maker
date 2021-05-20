@@ -1,5 +1,5 @@
 function downloadInfo(filename, text) {
-  var element = document.createElement('a');
+  let element = document.createElement('a');
   element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
   element.setAttribute('download', filename);
 
@@ -12,7 +12,6 @@ function downloadInfo(filename, text) {
 }
 
 $(document).ready(function () {
-  // info.dat 
   $("button#prepare-info-dat").click(function () {
     $("#_version_data").text($("#_version").val());
     $("#_songName_data").text($("#_songName").val());
@@ -58,7 +57,6 @@ $(document).ready(function () {
   });
 
   $("button#download-chart-data").click(function () {
-    // const noteData = document.getElementById("note-data-output").innerText;
     const noteData = document.getElementById("chart-data-output").innerText;
     const difficultyFileName = $("#_difficultyBeatmapSets :selected").text();
     downloadInfo(`${difficultyFileName}Standard.dat`, noteData);
